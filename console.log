@@ -1,0 +1,1001 @@
+krzysztof@krzysztof-ThinkPad-X220-Tablet ~/projekty/ftc $ kill 2586
+[1]-  Zakończony             python -c "from guppy import hpy;hpy().pb()"
+krzysztof@krzysztof-ThinkPad-X220-Tablet ~/projekty/ftc $ python -c "from guppy import hpy;hpy().monitor()"
+<Monitor> 
+*** Connection 1 opened ***
+<Monitor> h
+
+Documented commands (type help <topic>):
+========================================
+exit  h  help  int  ki  lc  q  sc
+
+<Monitor> ;c
+*** Unknown syntax: ;c
+
+Documented commands (type help <topic>):
+========================================
+exit  h  help  int  ki  lc  q  sc
+
+<Monitor> lc
+CID PID  ARGV
+  1 2608 ['heap.py']
+<Monitor> 2608
+*** Unknown syntax: 2608
+
+Documented commands (type help <topic>):
+========================================
+exit  h  help  int  ki  lc  q  sc
+
+<Monitor> sc 2608
+Remote connection 2608. To return to Monitor, type <Ctrl-C> or .<RETURN>
+----------------------------------------
+Exception happened during processing the command 'sc 2608'
+Traceback (most recent call last):
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/heapy/Monitor.py", line 177, in exec_cmd
+    stop = self.onecmd(line)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/cmd.py", line 224, in onecmd
+    return func(arg)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/heapy/Monitor.py", line 331, in do_sc
+    self.monitor.set_connection(self.monitor.connections[self.conid])
+KeyError: 2608
+----------------------------------------
+<Monitor> lc
+CID PID  ARGV
+  1 2608 ['heap.py']
+<Monitor> sc 1
+Remote connection 1. To return to Monitor, type <Ctrl-C> or .<RETURN>
+<Annex> help
+
+Documented commands (type help <topic>):
+========================================
+close  h  help  int  isolatest  q  reset  stat
+
+<Annex> int
+Remote interactive console. To return to Annex, type '-'.
+>>> hp.heap()
+Partition of a set of 23895 objects. Total size = 3195104 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  10780  45   907136  28    907136  28 str
+     1   4722  20   384544  12   1291680  40 tuple
+     2     95   0   304616  10   1596296  50 dict of module
+     3    100   0   277216   9   1873512  59 dict (no owner)
+     4    239   1   268904   8   2142416  67 dict of type
+     5    239   1   211656   7   2354072  74 type
+     6   1125   5   144000   5   2498072  78 types.CodeType
+     7   1107   5   132840   4   2630912  82 function
+     8   1168   5    93440   3   2724352  85 __builtin__.wrapper_descriptor
+     9    396   2    55000   2   2779352  87 unicode
+<81 more rows. Type e.g. '_.more' to view.>
+>>> hp.heap()
+Partition of a set of 23895 objects. Total size = 3195168 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  10780  45   907136  28    907136  28 str
+     1   4722  20   384544  12   1291680  40 tuple
+     2     95   0   304616  10   1596296  50 dict of module
+     3    100   0   277216   9   1873512  59 dict (no owner)
+     4    239   1   268904   8   2142416  67 dict of type
+     5    239   1   211656   7   2354072  74 type
+     6   1125   5   144000   5   2498072  78 types.CodeType
+     7   1107   5   132840   4   2630912  82 function
+     8   1168   5    93440   3   2724352  85 __builtin__.wrapper_descriptor
+     9    396   2    55000   2   2779352  87 unicode
+<81 more rows. Type e.g. '_.more' to view.>
+>>> hp.heap()
+Partition of a set of 23895 objects. Total size = 3195168 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  10780  45   907136  28    907136  28 str
+     1   4722  20   384544  12   1291680  40 tuple
+     2     95   0   304616  10   1596296  50 dict of module
+     3    100   0   277216   9   1873512  59 dict (no owner)
+     4    239   1   268904   8   2142416  67 dict of type
+     5    239   1   211656   7   2354072  74 type
+     6   1125   5   144000   5   2498072  78 types.CodeType
+     7   1107   5   132840   4   2630912  82 function
+     8   1168   5    93440   3   2724352  85 __builtin__.wrapper_descriptor
+     9    396   2    55000   2   2779352  87 unicode
+<81 more rows. Type e.g. '_.more' to view.>
+>>> hp.heap()
+Partition of a set of 23895 objects. Total size = 3195168 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  10780  45   907136  28    907136  28 str
+     1   4722  20   384544  12   1291680  40 tuple
+     2     95   0   304616  10   1596296  50 dict of module
+     3    100   0   277216   9   1873512  59 dict (no owner)
+     4    239   1   268904   8   2142416  67 dict of type
+     5    239   1   211656   7   2354072  74 type
+     6   1125   5   144000   5   2498072  78 types.CodeType
+     7   1107   5   132840   4   2630912  82 function
+     8   1168   5    93440   3   2724352  85 __builtin__.wrapper_descriptor
+     9    396   2    55000   2   2779352  87 unicode
+<81 more rows. Type e.g. '_.more' to view.>
+^[[A>>> hp.heap()
+Partition of a set of 23895 objects. Total size = 3195168 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  10780  45   907136  28    907136  28 str
+     1   4722  20   384544  12   1291680  40 tuple
+     2     95   0   304616  10   1596296  50 dict of module
+     3    100   0   277216   9   1873512  59 dict (no owner)
+     4    239   1   268904   8   2142416  67 dict of type
+     5    239   1   211656   7   2354072  74 type
+     6   1125   5   144000   5   2498072  78 types.CodeType
+     7   1107   5   132840   4   2630912  82 function
+     8   1168   5    93440   3   2724352  85 __builtin__.wrapper_descriptor
+     9    396   2    55000   2   2779352  87 unicode
+<81 more rows. Type e.g. '_.more' to view.>
+>>> hp.heap()
+Partition of a set of 23895 objects. Total size = 3195168 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  10780  45   907136  28    907136  28 str
+     1   4722  20   384544  12   1291680  40 tuple
+     2     95   0   304616  10   1596296  50 dict of module
+     3    100   0   277216   9   1873512  59 dict (no owner)
+     4    239   1   268904   8   2142416  67 dict of type
+     5    239   1   211656   7   2354072  74 type
+     6   1125   5   144000   5   2498072  78 types.CodeType
+     7   1107   5   132840   4   2630912  82 function
+     8   1168   5    93440   3   2724352  85 __builtin__.wrapper_descriptor
+     9    396   2    55000   2   2779352  87 unicode
+<81 more rows. Type e.g. '_.more' to view.>
+>>> hpy().dump()
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 45, in __getattr__
+    return self._share.getattr(self, name)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 195, in getattr
+    d = self.getattr2(inter, cache, owner, name)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 223, in getattr2
+    x = self.getattr_module(inter, name)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 246, in getattr_module
+    'Module %r or its _GLUECLAMP_ has no attribute %r'%(self.module.__name__, name)
+AttributeError: Module 'guppy.heapy.Use' or its _GLUECLAMP_ has no attribute 'dump'
+>>> hpy()
+Top level interface to Heapy.
+Use eg: hp.doc for more info on hp.
+>>> hpy().doc
+Top level interface to Heapy. Available attributes:
+Anything            Nothing             Via                 iso
+Class               Rcs                 doc                 load
+Clodo               Root                findex              monitor
+Id                  Size                heap                pb
+Idset               Type                heapu               setref
+Module              Unity               idset               test
+Use eg: hp.doc.<attribute> for info on <attribute>.
+>>> hp.doc
+Top level interface to Heapy. Available attributes:
+Anything            Nothing             Via                 iso
+Class               Rcs                 doc                 load
+Clodo               Root                findex              monitor
+Id                  Size                heap                pb
+Idset               Type                heapu               setref
+Module              Unity               idset               test
+Use eg: hp.doc.<attribute> for info on <attribute>.
+>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+^[[A>>> hpy().heap().dump('file')
+^[[A>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+^[[A>>> hpy().heap().dump('file')
+^[[A>>> hpy().heap().dump('file')
+^[[A>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+>>> hpy().heap().dump('file')
+^[[A>>> hpy().heap().dump('file')
+^[[A>>> hpy().heap().dump('file')
+^[[A>>> hpy().heap().dump('file')
+^[[A
+>>> hpy().heap().dump('file')
+^[[A
+^[[A>>> hpy().heap().dump('file')
+>>> hp.doc
+Top level interface to Heapy. Available attributes:
+Anything            Nothing             Via                 iso
+Class               Rcs                 doc                 load
+Clodo               Root                findex              monitor
+Id                  Size                heap                pb
+Idset               Type                heapu               setref
+Module              Unity               idset               test
+Use eg: hp.doc.<attribute> for info on <attribute>.
+^[[AKeyboardInterrupt
+Use the ki command to interrupt a remote process.
+<Monitor> KeyboardInterrupt
+Use the ki command to interrupt a remote process.
+<Monitor> KeyboardInterrupt
+Use the ki command to interrupt a remote process.
+<Monitor> *** End Of File - Exiting Monitor ***
+krzysztof@krzysztof-ThinkPad-X220-Tablet ~/projekty/ftc $ python -c "from guppy import hpy;hpy().monitor()"
+<Monitor> k
+*** Connection 1 opened ***
+<Monitor>sc 1
+Remote connection 1. To return to Monitor, type <Ctrl-C> or .<RETURN>
+<Annex> ki
+*** Unknown syntax: ki
+<Annex> ki
+*** Unknown syntax: ki
+<Annex> KeyboardInterrupt
+Use the ki command to interrupt a remote process.
+<Monitor> ki
+Sending KeyboardInterrupt to connection 1.
+<Monitor> ki
+Sending KeyboardInterrupt to connection 1.
+<Monitor> KeyboardInterrupt
+Use the ki command to interrupt a remote process.
+<Monitor> KeyboardInterrupt
+Use the ki command to interrupt a remote process.
+<Monitor> *** End Of File - Exiting Monitor ***
+krzysztof@krzysztof-ThinkPad-X220-Tablet ~/projekty/ftc $ python -c "from guppy import hpy;hpy().monitor()"
+<Monitor> 
+*** Connection 1 opened ***
+<Monitor> sc 1
+Remote connection 1. To return to Monitor, type <Ctrl-C> or .<RETURN>
+<Annex> KeyboardInterrupt
+Use the ki command to interrupt a remote process.
+<Monitor> ki
+Sending KeyboardInterrupt to connection 1.
+<Monitor> help(ki)
+*** No help on (ki)
+<Monitor> help
+
+Documented commands (type help <topic>):
+========================================
+exit  h  help  int  ki  lc  q  sc
+
+<Monitor> help ki
+ki <connection ID>
+-----
+Keyboard Interrupt
+
+Send a command to interrupt the remote thread on the specified
+connection (default is the last one connected to).
+
+Notes:
+
+It currently only works with Python >= 2.4.  The remote thread will
+not always be awakened, for example if it is waiting in
+time.sleep(). Sometimes using several ki commands helps.
+<Monitor> ki
+Sending KeyboardInterrupt to connection 1.
+<Monitor> ki
+Sending KeyboardInterrupt to connection 1.
+<Monitor> ki
+Sending KeyboardInterrupt to connection 1.
+<Monitor> ki
+Sending KeyboardInterrupt to connection 1.
+<Monitor> int
+Local interactive console. To return to Monitor, type '-'.
+>>> h
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'h' is not defined
+>>> help
+Type help() for interactive help, or help(object) for help about object.
+>>> hpy().^C
+KeyboardInterrupt
+>>> ^C
+KeyboardInterrupt
+>>> ----------------------------------------
+Exception happened during processing the command 'int'
+Traceback (most recent call last):
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/heapy/Monitor.py", line 177, in exec_cmd
+    stop = self.onecmd(line)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/cmd.py", line 224, in onecmd
+    return func(arg)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/heapy/Monitor.py", line 259, in do_int
+    con.EOF_key_sequence)
+  File "/usr/lib/python2.7/code.py", line 234, in interact
+    line = self.raw_input(prompt)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/heapy/Console.py", line 20, in raw_input
+    line = self.stdin.readline()
+IOError: [Errno 0] Error
+----------------------------------------
+<Monitor> *** End Of File - Exiting Monitor ***
+krzysztof@krzysztof-ThinkPad-X220-Tablet ~/projekty/ftc $ python -c "from guppy import hpy;hpy().monitor()"
+<Monitor> 
+*** Connection 1 opened ***
+<Monitor> sc 1
+Remote connection 1. To return to Monitor, type <Ctrl-C> or .<RETURN>
+<Annex> hpy().stat.dump('file.hpy')
+*** Unknown syntax: hpy().stat.dump('file.hpy')
+<Annex> hpy().stat.dump('file.hpKeyboardInterrupt
+Use the ki command to interrupt a remote process.
+<Monitor> sc 1
+Remote connection 1. To return to Monitor, type <Ctrl-C> or .<RETURN>
+<Annex> int
+Remote interactive console. To return to Annex, type '-'.
+>>> hpy().stat
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 45, in __getattr__
+    return self._share.getattr(self, name)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 195, in getattr
+    d = self.getattr2(inter, cache, owner, name)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 223, in getattr2
+    x = self.getattr_module(inter, name)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 246, in getattr_module
+    'Module %r or its _GLUECLAMP_ has no attribute %r'%(self.module.__name__, name)
+AttributeError: Module 'guppy.heapy.Use' or its _GLUECLAMP_ has no attribute 'stat'
+>>> hpy().stat()
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 45, in __getattr__
+    return self._share.getattr(self, name)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 195, in getattr
+    d = self.getattr2(inter, cache, owner, name)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 223, in getattr2
+    x = self.getattr_module(inter, name)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 246, in getattr_module
+    'Module %r or its _GLUECLAMP_ has no attribute %r'%(self.module.__name__, name)
+AttributeError: Module 'guppy.heapy.Use' or its _GLUECLAMP_ has no attribute 'stat'
+>>> hpy
+<bound method Annex.hpy of <guppy.heapy.Remote.Annex instance at 0x7efed1c9dcb0>>
+>>> hpy()
+Top level interface to Heapy.
+Use eg: hp.doc for more info on hp.
+>>> hpy().doc
+Top level interface to Heapy. Available attributes:
+Anything            Nothing             Via                 iso
+Class               Rcs                 doc                 load
+Clodo               Root                findex              monitor
+Id                  Size                heap                pb
+Idset               Type                heapu               setref
+Module              Unity               idset               test
+Use eg: hp.doc.<attribute> for info on <attribute>.
+>>> hpy().dochpy().heap().dump('file.hpy')
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 45, in __getattr__
+    return self._share.getattr(self, name)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 195, in getattr
+    d = self.getattr2(inter, cache, owner, name)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 223, in getattr2
+    x = self.getattr_module(inter, name)
+  File "/home/krzysztof/.local/lib/python2.7/site-packages/guppy/etc/Glue.py", line 246, in getattr_module
+    'Module %r or its _GLUECLAMP_ has no attribute %r'%(self.module.__name__, name)
+AttributeError: Module 'guppy.heapy.Use' or its _GLUECLAMP_ has no attribute 'dochpy'
+>>> hpy().heap().dump('file.hpy')
+>>> hpy().heap().dump('file.hpy')
+>>> hpy().heap().dump('file.hpy')
+>>> hpy().heap().dump('file.hpy')
+>>> hpy().heap().dump('file.hpy')
+>>> hpy().heap().dump('file.hpy')
+>>> hpy().heap().dump('file.hpy')
+>>> hpy().heap()
+Partition of a set of 62125 objects. Total size = 13493344 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  28366  46  3841816  28   3841816  28 str
+     1    344   1  3459264  26   7301080  54 array.array
+     2  14474  23  1275392   9   8576472  64 tuple
+     3    212   0   845024   6   9421496  70 dict of module
+     4    548   1   572768   4   9994264  74 dict of type
+     5    187   0   503944   4  10498208  78 dict (no owner)
+     6    483   1   502824   4  11001032  82 unicode
+     7    548   1   489672   4  11490704  85 type
+     8   3646   6   466688   3  11957392  89 types.CodeType
+     9   3518   6   422160   3  12379552  92 function
+<188 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+    10   2228   4   178240   1  12557792  93 __builtin__.wrapper_descriptor
+    11    446   1    95472   1  12653264  94 list
+    12    872   1    76736   1  12730000  94 __builtin__.weakref
+    13    942   2    67824   1  12797824  95 types.BuiltinFunctionType
+    14    911   1    65592   0  12863416  95 __builtin__.method_descriptor
+    15     51   0    56520   0  12919936  96 dict of class
+    16    210   0    48720   0  12968656  96 __builtin__.set
+    17     32   0    47360   0  13016016  96 dict of abc.ABCMeta
+    18    574   1    41328   0  13057344  97 types.GetSetDescriptorType
+    19     37   0    37192   0  13094536  97 __builtin__.StgDict
+<178 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+    20     32   0    28928   0  13123464  97 abc.ABCMeta
+    21     96   0    26880   0  13150344  97 dict of _weakrefset.WeakSet
+    22     96   0    26880   0  13177224  98 dict of function
+    23   1083   2    25992   0  13203216  98 int
+    24     28   0    25280   0  13228496  98 _ctypes.PyCSimpleType
+    25      6   0    20208   0  13248704  98 numpy.core.numerictypes._typedict
+    26    104   0    19968   0  13268672  98 numpy.ufunc
+    27    222   0    15984   0  13284656  98 types.MemberDescriptorType
+    28    212   0    11872   0  13296528  99 module
+    29     18   0     9648   0  13306176  99 dict of numpy.ma.core._MaskedBinaryOperation
+<168 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+    30    335   1     8040   0  13314216  99 float
+    31     26   0     8016   0  13322232  99 _sre.SRE_Pattern
+    32     26   0     7280   0  13329512  99 dict of numpy.ma.core._MaskedUnaryOperation
+    33     26   0     7280   0  13336792  99 dict of numpy.ma.core._frommethod
+    34      8   0     7200   0  13343992  99 _ctypes.PyCFuncPtrType
+    35     78   0     6864   0  13350856  99 __builtin__.property
+    36    120   0     6720   0  13357576  99 __builtin__.cell
+    37      6   0     6288   0  13363864  99 dict of numpy.core.getlimits.MachArLike
+    38      6   0     6288   0  13370152  99 dict of numpy.ma.core._DomainedBinaryOperation
+    39     96   0     6144   0  13376296  99 _weakrefset.WeakSet
+<158 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+    40     67   0     5360   0  13381656  99 numpy.ndarray
+    41     19   0     5320   0  13386976  99 dict of numpy.testing.nose_tools.nosetester.NoseTester
+    42     51   0     5304   0  13392280  99 class
+    43      5   0     5240   0  13397520  99 dict of guppy.etc.Glue.Share
+    44     91   0     5096   0  13402616  99 __builtin__.staticmethod
+    45      1   0     5064   0  13407680  99 random.Random
+    46     21   0     4872   0  13412552  99 __builtin__.frozenset
+    47     59   0     4720   0  13417272  99 types.MethodType
+    48     14   0     3920   0  13421192  99 dict of functools.partial
+    49      3   0     3144   0  13424336  99 dict of decimal.Context
+<148 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+    50      3   0     2680   0  13427016 100 _ctypes.PyCPointerType
+    51      8   0     2240   0  13429256 100 dict of guppy.etc.Glue.Interface
+    52      8   0     2240   0  13431496 100 dict of numpy.ma.core._convert2ma
+    53      7   0     1960   0  13433456 100 dict of __future__._Feature
+    54      7   0     1960   0  13435416 100 dict of abc.abstractproperty
+    55     31   0     1736   0  13437152 100 __builtin__.classmethod
+    56      6   0     1680   0  13438832 100 dict of numpy.ma.core._DomainSafeDivide
+    57     26   0     1664   0  13440496 100 numpy.ma.core._MaskedUnaryOperation
+    58     26   0     1664   0  13442160 100 numpy.ma.core._frommethod
+    59      5   0     1400   0  13443560 100 dict of guppy.etc.Glue.Owner
+<138 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+    60     19   0     1368   0  13444928 100 __builtin__.classmethod_descriptor
+    61     14   0     1232   0  13446160 100 functools.partial
+    62     19   0     1216   0  13447376 100 numpy.testing.nose_tools.nosetester.NoseTester
+    63     18   0     1152   0  13448528 100 numpy.ma.core._MaskedBinaryOperation
+    64      4   0     1120   0  13449648 100 dict of numpy.ma.extras._fromnxfunction_seq
+    65      1   0     1048   0  13450696 100 dict of _ctypes.PyCArrayType
+    66      1   0     1048   0  13451744 100 dict of _ctypes.PyCFuncPtrType
+    67      1   0     1048   0  13452792 100 dict of _ctypes.PyCPointerType
+    68      1   0     1048   0  13453840 100 dict of _ctypes.PyCSimpleType
+    69      1   0     1048   0  13454888 100 dict of codecs.CodecInfo
+<128 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+    70      1   0     1048   0  13455936 100 dict of string._TemplateMetaclass
+    71      1   0     1048   0  13456984 100 dict of threading._MainThread
+    72     31   0     1000   0  13457984 100 long
+    73      1   0      904   0  13458888 100 ctypes._endian._swapped_meta
+    74      1   0      904   0  13459792 100 string._TemplateMetaclass
+    75      1   0      872   0  13460664 100 _ctypes.PyCArrayType
+    76      1   0      872   0  13461536 100 _ctypes.PyCStructType
+    77      1   0      872   0  13462408 100 _ctypes.UnionType
+    78      2   0      864   0  13463272 100 types.FrameType
+    79      3   0      840   0  13464112 100 dict of numpy.core.getlimits.iinfo
+<118 more rows. Type e.g. '_.more' to view.>
+^[[A>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+    80      3   0      840   0  13464952 100 dict of numpy.ma.core._DomainCheckInterval
+    81      3   0      840   0  13465792 100 dict of numpy.ma.core._DomainGreater
+    82      3   0      840   0  13466632 100 dict of numpy.ma.extras._fromnxfunction_allargs
+    83      3   0      840   0  13467472 100 dict of site._Printer
+    84      7   0      728   0  13468200 100 abc.abstractproperty
+    85      1   0      664   0  13468864 100 dict of numpy.ma.core.MaskedConstant
+    86      2   0      592   0  13469456 100 collections.OrderedDict
+    87      9   0      576   0  13470032 100 operator.itemgetter
+    88      2   0      560   0  13470592 100 dict of collections.OrderedDict
+    89      2   0      560   0  13471152 100 dict of ctypes.LibraryLoader
+<108 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+    90      2   0      560   0  13471712 100 dict of numpy.fft.helper._FFTCache
+    91      2   0      560   0  13472272 100 dict of numpy.lib.index_tricks.IndexExpression
+    92      2   0      560   0  13472832 100 dict of numpy.lib.index_tricks.nd_grid
+    93      2   0      560   0  13473392 100 dict of numpy.ma.core._DomainGreaterEqual
+    94      2   0      560   0  13473952 100 dict of numpy.ma.core._extrema_operation
+    95      2   0      560   0  13474512 100 dict of numpy.ma.extras._fromnxfunction_single
+    96      2   0      560   0  13475072 100 dict of site.Quitter
+    97      2   0      560   0  13475632 100 dict of threading._Condition
+    98      8   0      512   0  13476144 100 guppy.etc.Glue.Interface
+    99      8   0      512   0  13476656 100 numpy.ma.core._convert2ma
+<98 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+   100      7   0      504   0  13477160 100 __future__._Feature
+   101      6   0      480   0  13477640 100 decimal.Decimal
+   102      3   0      432   0  13478072 100 file
+   103     13   0      416   0  13478488 100 numpy.datetime64
+   104     13   0      416   0  13478904 100 numpy.timedelta64
+   105      6   0      384   0  13479288 100 numpy.core.getlimits.MachArLike
+   106      6   0      384   0  13479672 100 numpy.ma.core._DomainSafeDivide
+   107      6   0      384   0  13480056 100 numpy.ma.core._DomainedBinaryOperation
+   108      5   0      360   0  13480416 100 guppy.etc.Glue.Owner
+   109      5   0      360   0  13480776 100 guppy.etc.Glue.Share
+<88 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+   110      3   0      288   0  13481064 100 numpy.dtype
+   111      1   0      280   0  13481344 100 dict of _ctypes.PyCStructType
+   112      1   0      280   0  13481624 100 dict of _ctypes.UnionType
+   113      1   0      280   0  13481904 100 dict of ctypes.PyDLL
+   114      1   0      280   0  13482184 100 dict of decimal._Log10Memoize
+   115      1   0      280   0  13482464 100 dict of guppy.heapy.Target.Target
+   116      1   0      280   0  13482744 100 dict of guppy.heapy.Use._GLUECLAMP_
+   117      1   0      280   0  13483024 100 dict of numpy.lib._datasource._FileOpeners
+   118      1   0      280   0  13483304 100 dict of numpy.lib.index_tricks.CClass
+   119      1   0      280   0  13483584 100 dict of numpy.lib.index_tricks.RClass
+<78 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+   120      1   0      280   0  13483864 100 dict of numpy.ma.core._DomainTan
+   121      1   0      280   0  13484144 100 dict of numpy.ma.core._MaskedPrintOption
+   122      1   0      280   0  13484424 100 dict of numpy.ma.extras.mr_class
+   123      1   0      280   0  13484704 100 dict of os._Environ
+   124      1   0      280   0  13484984 100 dict of random.Random
+   125      1   0      280   0  13485264 100 dict of threading._Event
+   126      1   0      280   0  13485544 100 dict of weakref.WeakKeyDictionary
+   127      4   0      256   0  13485800 100 numpy.ma.extras._fromnxfunction_seq
+   128      6   0      240   0  13486040 100 __builtin__.PyCObject
+   129      5   0      240   0  13486280 100 __builtin__.PyCapsule
+<68 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+   130      6   0      240   0  13486520 100 datetime.timedelta
+   131      7   0      224   0  13486744 100 numpy.float128
+   132      7   0      224   0  13486968 100 thread.lock
+   133      1   0      208   0  13487176 100 0x209a9e0
+   134      1   0      208   0  13487384 100 0x20b3ef0
+   135      1   0      208   0  13487592 100 0x20b4440
+   136      1   0      208   0  13487800 100 0x20b4990
+   137      1   0      208   0  13488008 100 0x20b4ee0
+   138      2   0      208   0  13488216 100 _sre.SRE_Match
+   139      3   0      192   0  13488408 100 decimal.Context
+<58 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+   140      3   0      192   0  13488600 100 numpy.core.getlimits.iinfo
+   141      3   0      192   0  13488792 100 numpy.ma.core._DomainCheckInterval
+   142      3   0      192   0  13488984 100 numpy.ma.core._DomainGreater
+   143      3   0      192   0  13489176 100 numpy.ma.extras._fromnxfunction_allargs
+   144      3   0      192   0  13489368 100 site._Printer
+   145      1   0      152   0  13489520 100 sys.flags
+   146      4   0      128   0  13489648 100 complex
+   147      2   0      128   0  13489776 100 ctypes.LibraryLoader
+   148      2   0      128   0  13489904 100 numpy.fft.helper._FFTCache
+   149      2   0      128   0  13490032 100 numpy.lib.index_tricks.IndexExpression
+<48 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+   150      2   0      128   0  13490160 100 numpy.lib.index_tricks.nd_grid
+   151      2   0      128   0  13490288 100 numpy.ma.core._DomainGreaterEqual
+   152      2   0      128   0  13490416 100 numpy.ma.core._extrema_operation
+   153      2   0      128   0  13490544 100 numpy.ma.extras._fromnxfunction_single
+   154      2   0      128   0  13490672 100 site.Quitter
+   155      2   0      128   0  13490800 100 threading._Condition
+   156      1   0      120   0  13490920 100 numpy.ma.core.MaskedConstant
+   157      1   0      112   0  13491032 100 sys.float_info
+   158      1   0       96   0  13491128 100 codecs.CodecInfo
+   159      2   0       96   0  13491224 100 datetime.datetime
+<38 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+   160      1   0       96   0  13491320 100 thread._local
+   161      2   0       80   0  13491400 100 datetime.time
+   162      1   0       80   0  13491480 100 mtrand.RandomState
+   163      1   0       72   0  13491552 100 guppy.heapy.Target.Target
+   164      1   0       72   0  13491624 100 itertools.count
+   165      3   0       72   0  13491696 100 numpy.int64
+   166      1   0       72   0  13491768 100 os._Environ
+   167      1   0       72   0  13491840 100 weakref.WeakKeyDictionary
+   168      1   0       64   0  13491904 100 __builtin__.method-wrapper
+   169      1   0       64   0  13491968 100 ctypes.PyDLL
+<28 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+   170      2   0       64   0  13492032 100 datetime.date
+   171      1   0       64   0  13492096 100 decimal._Log10Memoize
+   172      1   0       64   0  13492160 100 guppy.heapy.Use._GLUECLAMP_
+   173      1   0       64   0  13492224 100 numpy.core.numeric._unspecified
+   174      1   0       64   0  13492288 100 numpy.lib._datasource._FileOpeners
+   175      1   0       64   0  13492352 100 numpy.lib.index_tricks.CClass
+   176      1   0       64   0  13492416 100 numpy.lib.index_tricks.RClass
+   177      1   0       64   0  13492480 100 numpy.ma.core._DomainTan
+   178      1   0       64   0  13492544 100 numpy.ma.core._MaskedPrintOption
+   179      1   0       64   0  13492608 100 numpy.ma.extras.mr_class
+<18 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+   180      1   0       64   0  13492672 100 site._Helper
+   181      1   0       64   0  13492736 100 sys.version_info
+   182      1   0       64   0  13492800 100 threading._Event
+   183      1   0       64   0  13492864 100 threading._MainThread
+   184      1   0       64   0  13492928 100 unittest.loader.TestLoader
+   185      2   0       48   0  13492976 100 bool
+   186      2   0       48   0  13493024 100 numpy.bool_
+   187      2   0       48   0  13493072 100 numpy.float64
+   188      3   0       48   0  13493120 100 object
+   189      1   0       40   0  13493160 100 sys.long_info
+<8 more rows. Type e.g. '_.more' to view.>
+>>> _.more
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+   190      1   0       32   0  13493192 100 _thread._localdummy
+   191      2   0       32   0  13493224 100 imp.NullImporter
+   192      1   0       24   0  13493248 100 numpy.int16
+   193      1   0       24   0  13493272 100 numpy.int32
+   194      1   0       24   0  13493296 100 numpy.int64
+   195      1   0       16   0  13493312 100 types.EllipsisType
+   196      1   0       16   0  13493328 100 types.NoneType
+   197      1   0       16   0  13493344 100 types.NotImplementedType
+>>> hpy().heap()
+Partition of a set of 62183 objects. Total size = 13785664 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  28366  46  3841816  28   3841816  28 str
+     1    373   1  3750888  27   7592704  55 array.array
+     2  14474  23  1275392   9   8868096  64 tuple
+     3    212   0   845024   6   9713120  70 dict of module
+     4    548   1   572768   4  10285888  75 dict of type
+     5    187   0   503944   4  10789832  78 dict (no owner)
+     6    483   1   502824   4  11292656  82 unicode
+     7    548   1   489672   4  11782328  85 type
+     8   3646   6   466688   3  12249016  89 types.CodeType
+     9   3518   6   422160   3  12671176  92 function
+<188 more rows. Type e.g. '_.more' to view.>
+>>> hpy().iso([])
+Partition of a set of 1 object. Total size = 72 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1 100       72 100        72 100 list
+>>> hpy().iso([])
+Partition of a set of 1 object. Total size = 72 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1 100       72 100        72 100 list
+>>> hpy().iso([])
+Partition of a set of 1 object. Total size = 72 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1 100       72 100        72 100 list
+>>> hpy().iso([],arrray)
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'arrray' is not defined
+>>> hpy().iso([],)
+Partition of a set of 1 object. Total size = 72 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1 100       72 100        72 100 list
+>>> hpy().iso(1,[])
+Partition of a set of 2 objects. Total size = 96 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  50       72  75        72  75 list
+     1      1  50       24  25        96 100 int
+>>> hpy().iso(1,1.0,[])
+Partition of a set of 3 objects. Total size = 120 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  33       72  60        72  60 list
+     1      1  33       24  20        96  80 float
+     2      1  33       24  20       120 100 int
+>>> hpy().iso(1,1.0,[]).dump('dump.hpy')
+>>> hpy().iso(1,1.0,[]).dump('dump.hpy')
+>>> hpy().iso(1,1.0,[]).dump('dump.hpy')
+>>> hpy().iso(1,1.0,[]).dump('dump.hpy')
+>>> hpy().iso(1,1.0,[]).dump('dump.hpy')\
+... 
+>>> hpy().iso(1,1.0,[]).dump('dump.hpy')
+>>> hpy().iso(1,1.0,[]).dump('dump.hpy')
+>>> hpy().iso(1,1.0,[],array.array).dump('dump.hpy')
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'array' is not defined
+>>> import array
+>>> hpy().iso(1,1.0,[],array.array).dump('dump.hpy')
+>>> hpy().iso(1,1.0,[],array.array).dump('dump.hpy')
+>>> hpy().iso(1,1.0,[],array.array).dump('dump.hpy')
+>>> hpy().iso(1,1.0,[],array.array).dump('dump.hpy')
+>>> hpy().iso(1,1.0,[],array.array).dump('dump1.hpy')
+>>> hpy().iso(1,1.0,[],array.array)
+Partition of a set of 4 objects. Total size = 992 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25      872  88       872  88 type
+     1      1  25       72   7       944  95 list
+     2      1  25       24   2       968  98 float
+     3      1  25       24   2       992 100 int
+>>> hpy().iso(array.array)
+Partition of a set of 1 object. Total size = 872 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1 100      872 100       872 100 type
+>>> hpy().iso(array.array)
+Partition of a set of 1 object. Total size = 872 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1 100      872 100       872 100 type
+>>> hpy().iso(array.array)
+Partition of a set of 1 object. Total size = 872 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1 100      872 100       872 100 type
+>>> hpy().iso(array.array)
+Partition of a set of 1 object. Total size = 872 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1 100      872 100       872 100 type
+>>> exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> *** End Of File - Exiting Monitor ***
+krzysztof@krzysztof-ThinkPad-X220-Tablet ~/projekty/ftc $ python -c "from guppy import hpy;hpy().monitor()"
+<Monitor> 
+*** Connection 1 opened ***
+<Monitor> sc 1
+Remote connection 1. To return to Monitor, type <Ctrl-C> or .<RETURN>
+<Annex> hpy().iso(1,"string",[], array.array)
+*** Unknown syntax: hpy().iso(1,"string",[], array.array)
+<Annex> import array
+*** Unknown syntax: import array
+<Annex> int
+Remote interactive console. To return to Annex, type '-'.
+>>> import array
+>>> hpy().iso(1,"string",[], array.array)
+Partition of a set of 4 objects. Total size = 1016 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25      872  86       872  86 type
+     1      1  25       72   7       944  93 list
+     2      1  25       48   5       992  98 str
+     3      1  25       24   2      1016 100 int
+>>> hpy().iso(1,"string",[], array.array)
+Partition of a set of 4 objects. Total size = 1016 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25      872  86       872  86 type
+     1      1  25       72   7       944  93 list
+     2      1  25       48   5       992  98 str
+     3      1  25       24   2      1016 100 int
+>>> hpy().iso(1,"string",[], array.array)
+Partition of a set of 4 objects. Total size = 1016 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25      872  86       872  86 type
+     1      1  25       72   7       944  93 list
+     2      1  25       48   5       992  98 str
+     3      1  25       24   2      1016 100 int
+>>> hpy().iso(1,"string",[], array.array)
+Partition of a set of 4 objects. Total size = 1016 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25      872  86       872  86 type
+     1      1  25       72   7       944  93 list
+     2      1  25       48   5       992  98 str
+     3      1  25       24   2      1016 100 int
+>>> hpy().iso(1,"string",[], array.array)
+Partition of a set of 4 objects. Total size = 1016 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25      872  86       872  86 type
+     1      1  25       72   7       944  93 list
+     2      1  25       48   5       992  98 str
+     3      1  25       24   2      1016 100 int
+>>> hpy().iso(1,"string",[], array.array)
+Partition of a set of 4 objects. Total size = 1016 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25      872  86       872  86 type
+     1      1  25       72   7       944  93 list
+     2      1  25       48   5       992  98 str
+     3      1  25       24   2      1016 100 int
+^[[A>>> hpy().iso(1,"string",[], array.array)
+Partition of a set of 4 objects. Total size = 1016 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25      872  86       872  86 type
+     1      1  25       72   7       944  93 list
+     2      1  25       48   5       992  98 str
+     3      1  25       24   2      1016 100 int
+>>> hpy().iso(1,"string",[], array.array)
+Partition of a set of 4 objects. Total size = 1016 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25      872  86       872  86 type
+     1      1  25       72   7       944  93 list
+     2      1  25       48   5       992  98 str
+     3      1  25       24   2      1016 100 int
+>>> hpy().iso(1,"string",[], array.array)
+Partition of a set of 4 objects. Total size = 1016 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25      872  86       872  86 type
+     1      1  25       72   7       944  93 list
+     2      1  25       48   5       992  98 str
+     3      1  25       24   2      1016 100 int
+>>> hpy().iso(1,"string",[], array.array)
+Partition of a set of 4 objects. Total size = 1016 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25      872  86       872  86 type
+     1      1  25       72   7       944  93 list
+     2      1  25       48   5       992  98 str
+     3      1  25       24   2      1016 100 int
+^[[A>>> hpy().iso(1,"string",[], array.array)
+Partition of a set of 4 objects. Total size = 1016 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25      872  86       872  86 type
+     1      1  25       72   7       944  93 list
+     2      1  25       48   5       992  98 str
+     3      1  25       24   2      1016 100 int
+>>> hpy().heap()
+Partition of a set of 63128 objects. Total size = 18601144 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0    850   1  8547600  46   8547600  46 array.array
+     1  28366  45  3841832  21  12389432  67 str
+     2  14474  23  1275424   7  13664856  73 tuple
+     3    212   0   845024   5  14509880  78 dict of module
+     4    548   1   572768   3  15082648  81 dict of type
+     5    187   0   503944   3  15586592  84 dict (no owner)
+     6    483   1   502824   3  16089416  86 unicode
+     7    548   1   489672   3  16579088  89 type
+     8   3646   6   466688   3  17045776  92 types.CodeType
+     9   3518   6   422160   2  17467936  94 function
+<188 more rows. Type e.g. '_.more' to view.>
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+^[[A>>> hpy().heap().dump('heap.hpy')
+^[[A>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> 
+*** Connection 2 opened ***
+>>> 
+*** Connection 2 closed ***
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap()
+Partition of a set of 64321 objects. Total size = 13715240 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  28398  44  3843808  28   3843808  28 str
+     1    359   1  3610104  26   7453912  54 array.array
+     2  14475  23  1275512   9   8729424  64 tuple
+     3    212   0   845024   6   9574448  70 dict of module
+     4    548   1   572768   4  10147216  74 dict of type
+     5    188   0   504224   4  10651440  78 dict (no owner)
+     6    483   1   502824   4  11154264  81 unicode
+     7    548   1   489672   4  11643936  85 type
+     8   3646   6   466688   3  12110624  88 types.CodeType
+     9   3518   5   422160   3  12532784  91 function
+<188 more rows. Type e.g. '_.more' to view.>
+>>> hpy().heap()
+Partition of a set of 64455 objects. Total size = 14395144 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0    426   1  4283856  30   4283856  30 array.array
+     1  28398  44  3843808  27   8127664  56 str
+     2  14475  22  1275512   9   9403176  65 tuple
+     3    212   0   845024   6  10248200  71 dict of module
+     4    548   1   572768   4  10820968  75 dict of type
+     5    188   0   504224   4  11325192  79 dict (no owner)
+     6    483   1   502824   3  11828016  82 unicode
+     7    548   1   489672   3  12317688  86 type
+     8   3646   6   466688   3  12784376  89 types.CodeType
+     9   3518   5   422160   3  13206536  92 function
+<188 more rows. Type e.g. '_.more' to view.>
+>>> hpy().heap()
+Partition of a set of 64509 objects. Total size = 14667816 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0    453   1  4555368  31   4555368  31 array.array
+     1  28398  44  3843808  26   8399176  57 str
+     2  14475  22  1275512   9   9674688  66 tuple
+     3    212   0   845024   6  10519712  72 dict of module
+     4    548   1   572768   4  11092480  76 dict of type
+     5    188   0   504224   3  11596704  79 dict (no owner)
+     6    483   1   502824   3  12099528  82 unicode
+     7    548   1   489672   3  12589200  86 type
+     8   3646   6   466688   3  13055888  89 types.CodeType
+     9   3518   5   422160   3  13478048  92 function
+<188 more rows. Type e.g. '_.more' to view.>
+>>> hpy().heap()
+Partition of a set of 64139 objects. Total size = 10113176 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  28404  44  3844120  38   3844120  38 str
+     1  14478  23  1275712  13   5119832  51 tuple
+     2    212   0   845024   8   5964856  59 dict of module
+     3    548   1   572768   6   6537624  65 dict of type
+     4    190   0   504784   5   7042408  70 dict (no owner)
+     5    483   1   502824   5   7545232  75 unicode
+     6    548   1   489672   5   8034904  79 type
+     7   3647   6   466816   5   8501720  84 types.CodeType
+     8   3519   5   422280   4   8924000  88 function
+     9   2228   3   178240   2   9102240  90 __builtin__.wrapper_descriptor
+<190 more rows. Type e.g. '_.more' to view.>
+>>> hpy().heap()
+Partition of a set of 64139 objects. Total size = 10113176 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  28404  44  3844120  38   3844120  38 str
+     1  14478  23  1275712  13   5119832  51 tuple
+     2    212   0   845024   8   5964856  59 dict of module
+     3    548   1   572768   6   6537624  65 dict of type
+     4    190   0   504784   5   7042408  70 dict (no owner)
+     5    483   1   502824   5   7545232  75 unicode
+     6    548   1   489672   5   8034904  79 type
+     7   3647   6   466816   5   8501720  84 types.CodeType
+     8   3519   5   422280   4   8924000  88 function
+     9   2228   3   178240   2   9102240  90 __builtin__.wrapper_descriptor
+<190 more rows. Type e.g. '_.more' to view.>
+>>> hpy().heap()
+Partition of a set of 64156 objects. Total size = 10311648 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  28398  44  3843808  37   3843808  37 str
+     1  14475  23  1275512  12   5119320  50 tuple
+     2    212   0   845024   8   5964344  58 dict of module
+     3    548   1   572768   6   6537112  63 dict of type
+     4    188   0   504224   5   7041336  68 dict (no owner)
+     5    483   1   502824   5   7544160  73 unicode
+     6    548   1   489672   5   8033832  78 type
+     7   3646   6   466688   5   8500520  82 types.CodeType
+     8   3518   5   422160   4   8922680  87 function
+     9     20   0   201120   2   9123800  88 array.array
+<188 more rows. Type e.g. '_.more' to view.>
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().iso(1,1.0, "str", foo())
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'foo' is not defined
+>>> def foo()
+  File "<console>", line 1
+    def foo()
+            ^
+SyntaxError: invalid syntax
+>>> def foo():
+... pass
+  File "<console>", line 2
+    pass
+       ^
+IndentationError: expected an indented block
+>>> def foo():
+...     pass
+... 
+>>> hpy().iso(1,1.0, "str", foo())
+Partition of a set of 4 objects. Total size = 104 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25       40  38        40  38 str
+     1      1  25       24  23        64  62 float
+     2      1  25       24  23        88  85 int
+     3      1  25       16  15       104 100 types.NoneType
+>>> hpy().iso(1,1.0, "str", foo)
+Partition of a set of 4 objects. Total size = 208 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  25      120  58       120  58 function
+     1      1  25       40  19       160  77 str
+     2      1  25       24  12       184  88 float
+     3      1  25       24  12       208 100 int
+>>> hpy().iso(1,1.0, "str", foo, array.array)
+Partition of a set of 5 objects. Total size = 1080 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  20      872  81       872  81 type
+     1      1  20      120  11       992  92 function
+     2      1  20       40   4      1032  96 str
+     3      1  20       24   2      1056  98 float
+     4      1  20       24   2      1080 100 int
+>>> hpy().iso(1,1.0, "str", foo, array.array).dump('array.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array.array).dump('array.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array.array).dump('array.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array.array).dump('array.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array.array).dump('array.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array).dump('array.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array).dump('array.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array).dump('array.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array).dump('array.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array).dump('array.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array.array).dump('array.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array.array).dump('array.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array.array).dump('array.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array.array).dump('array.hpy')
+>>> hpy().iso(1,1.0, "str", foo, array.array).dump('array.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+\>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> hpy().heap().dump('heap.hpy')
+>>> 
+

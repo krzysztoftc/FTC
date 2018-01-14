@@ -1,0 +1,29 @@
+
+Func do_sth()
+Partition of a set of 31916 objects. Total size = 3953024 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  15889  50  1224584  31   1224584  31 str
+     1   6403  20   518440  13   1743024  44 tuple
+     2    332   1   283808   7   2026832  51 dict (no owner)
+     3    235   1   260488   7   2287320  58 dict of type
+     4     88   0   252736   6   2540056  64 dict of module
+     5   1748   5   223744   6   2763800  70 types.CodeType
+     6    235   1   208848   5   2972648  75 type
+     7   1721   5   206520   5   3179168  80 function
+     8    130   0   142384   4   3321552  84 dict of class
+     9   1137   4    90960   2   3412512  86 __builtin__.wrapper_descriptor
+<99 more rows. Type e.g. '_.more' to view.>
+After do_sth()
+Partition of a set of 31916 objects. Total size = 3953104 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  15889  50  1224584  31   1224584  31 str
+     1   6403  20   518440  13   1743024  44 tuple
+     2    332   1   283808   7   2026832  51 dict (no owner)
+     3    235   1   260488   7   2287320  58 dict of type
+     4     88   0   252736   6   2540056  64 dict of module
+     5   1748   5   223744   6   2763800  70 types.CodeType
+     6    235   1   208848   5   2972648  75 type
+     7   1721   5   206520   5   3179168  80 function
+     8    130   0   142384   4   3321552  84 dict of class
+     9   1137   4    90960   2   3412512  86 __builtin__.wrapper_descriptor
+<99 more rows. Type e.g. '_.more' to view.>

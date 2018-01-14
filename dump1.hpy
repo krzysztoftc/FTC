@@ -1,0 +1,13 @@
+.loader: _load_stat
+.format: SetFormat
+.timemade: 1515928435.526079
+.count: 4
+.size: 992
+.kindname: 
+.kindheader: Kind (class / dict of class)
+.numrows: 4
+.r: 1 872 type
+.r: 1 72 list
+.r: 1 24 float
+.r: 1 24 int
+.end: .loader: _load_stat

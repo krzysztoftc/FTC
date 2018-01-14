@@ -1,0 +1,293 @@
+.loader: _load_stat
+.format: SetFormat
+.timemade: 1515924997.649104
+.count: 38698
+.size: 4924720
+.kindname: 
+.kindheader: Kind (class / dict of class)
+.numrows: 111
+.r: 17487 1432856 str
+.r: 9144 749176 tuple
+.r: 124 401824 dict of module
+.r: 209 360728 dict (no owner)
+.r: 292 315232 dict of type
+.r: 2420 309760 types.CodeType
+.r: 2339 280680 function
+.r: 292 260672 type
+.r: 161 177944 dict of class
+.r: 1174 93920 __builtin__.wrapper_descriptor
+.r: 396 55000 unicode
+.r: 761 54792 types.BuiltinFunctionType
+.r: 696 50112 __builtin__.method_descriptor
+.r: 553 48664 __builtin__.weakref
+.r: 262 46512 list
+.r: 134 31088 __builtin__.set
+.r: 20 21728 dict of abc.ABCMeta
+.r: 20 18080 abc.ABCMeta
+.r: 17 17816 dict of guppy.etc.Glue.Share
+.r: 37 17272 dict of guppy.etc.Glue.Interface
+.r: 713 17112 int
+.r: 60 16800 dict of _weakrefset.WeakSet
+.r: 161 16744 class
+.r: 218 15696 types.MemberDescriptorType
+.r: 199 14328 types.GetSetDescriptorType
+.r: 18 12984 _sre.SRE_Pattern
+.r: 30 8400 dict of function
+.r: 88 7744 __builtin__.property
+.r: 124 6944 module
+.r: 21 5880 dict of guppy.etc.Glue.Owner
+.r: 1 5064 random.Random
+.r: 14 3920 dict of functools.partial
+.r: 60 3840 _weakrefset.WeakSet
+.r: 47 3760 types.MethodType
+.r: 16 3712 __builtin__.frozenset
+.r: 1 2616 guppy.sets.setsc.MutNodeSet
+.r: 5 2440 types.FrameType
+.r: 37 2368 guppy.etc.Glue.Interface
+.r: 91 2184 float
+.r: 7 1960 dict of __future__._Feature
+.r: 24 1536 operator.itemgetter
+.r: 21 1512 guppy.etc.Glue.Owner
+.r: 14 1232 functools.partial
+.r: 17 1224 __builtin__.classmethod_descriptor
+.r: 17 1224 guppy.etc.Glue.Share
+.r: 4 1120 dict of guppy.heapy.Use._GLUECLAMP_
+.r: 1 1048 dict of codecs.CodecInfo
+.r: 1 1048 dict of repr.Repr
+.r: 1 1048 dict of string._TemplateMetaclass
+.r: 1 1048 dict of subprocess.Popen
+.r: 1 1048 dict of threading._MainThread
+.r: 18 1008 __builtin__.classmethod
+.r: 1 904 string._TemplateMetaclass
+.r: 3 840 dict of site._Printer
+.r: 5 720 file
+.r: 2 560 dict of site.Quitter
+.r: 2 560 dict of threading._Condition
+.r: 2 560 dict of webbrowser.BackgroundBrowser
+.r: 5 520 _sre.SRE_Match
+.r: 9 504 __builtin__.staticmethod
+.r: 7 504 __future__._Feature
+.r: 15 464 long
+.r: 1 280 dict of debuger.NamedPipe
+.r: 1 280 dict of guppy.etc.Help.GuppyDir
+.r: 1 280 dict of guppy.etc.Help.GuppyDoc
+.r: 1 280 dict of guppy.heapy.Target.Target
+.r: 1 280 dict of os._Environ
+.r: 1 280 dict of random.Random
+.r: 1 280 dict of threading._Event
+.r: 1 280 dict of webbrowser.Mozilla
+.r: 1 280 dict of webbrowser.Opera
+.r: 4 256 guppy.heapy.Use._GLUECLAMP_
+.r: 6 240 datetime.timedelta
+.r: 3 192 site._Printer
+.r: 1 152 sys.flags
+.r: 3 144 __builtin__.PyCapsule
+.r: 2 128 site.Quitter
+.r: 4 128 thread.lock
+.r: 2 128 threading._Condition
+.r: 2 128 webbrowser.BackgroundBrowser
+.r: 3 120 __builtin__.PyCObject
+.r: 2 112 __builtin__.cell
+.r: 2 112 cStringIO.StringO
+.r: 1 112 guppy.heapy.heapyc.HeapView
+.r: 1 112 sys.float_info
+.r: 1 96 codecs.CodecInfo
+.r: 2 96 datetime.datetime
+.r: 2 80 datetime.time
+.r: 1 72 guppy.etc.Help.GuppyDoc
+.r: 1 72 guppy.heapy.Target.Target
+.r: 1 72 itertools.count
+.r: 1 72 os._Environ
+.r: 1 72 repr.Repr
+.r: 1 64 __builtin__.method-wrapper
+.r: 2 64 datetime.date
+.r: 1 64 debuger.NamedPipe
+.r: 1 64 guppy.etc.Help.GuppyDir
+.r: 1 64 site._Helper
+.r: 1 64 subprocess.Popen
+.r: 1 64 sys.version_info
+.r: 1 64 threading._Event
+.r: 1 64 threading._MainThread
+.r: 1 64 webbrowser.Mozilla
+.r: 1 64 webbrowser.Opera
+.r: 2 48 bool
+.r: 3 48 object
+.r: 1 40 sys.long_info
+.r: 2 32 imp.NullImporter
+.r: 1 16 types.EllipsisType
+.r: 1 16 types.NoneType
+.r: 1 16 types.NotImplementedType
+.end: .loader: _load_stat
+.loader: _load_stat
+.format: SetFormat
+.timemade: 1515925734.329780
+.count: 44719
+.size: 6102840
+.kindname: 
+.kindheader: Kind (class / dict of class)
+.numrows: 164
+.r: 18858 1650880 str
+.r: 11127 904088 tuple
+.r: 179 585416 dict of module
+.r: 489 543960 dict (no owner)
+.r: 2950 377600 types.CodeType
+.r: 2859 343080 function
+.r: 300 329376 dict of type
+.r: 300 268880 type
+.r: 174 194640 dict of class
+.r: 1168 93440 __builtin__.wrapper_descriptor
+.r: 125 73400 dict of guppy.etc.Glue.Interface
+.r: 385 66952 list
+.r: 735 64680 __builtin__.weakref
+.r: 242 56144 __builtin__.set
+.r: 401 55344 unicode
+.r: 752 54144 types.BuiltinFunctionType
+.r: 684 49248 __builtin__.method_descriptor
+.r: 32 33536 dict of guppy.etc.Glue.Share
+.r: 20 21728 dict of abc.ABCMeta
+.r: 74 20720 dict of guppy.etc.Glue.Owner
+.r: 764 18336 int
+.r: 174 18096 class
+.r: 20 18080 abc.ABCMeta
+.r: 16 17536 dict of abc.ABCMeta
+.r: 240 17280 types.MemberDescriptorType
+.r: 60 16800 dict of _weakrefset.WeakSet
+.r: 228 16416 types.GetSetDescriptorType
+.r: 16 14464 abc.ABCMeta
+.r: 48 13440 dict of _weakrefset.WeakSet
+.r: 44 12320 dict of function
+.r: 179 10024 module
+.r: 111 8880 types.MethodType
+.r: 125 8000 guppy.etc.Glue.Interface
+.r: 28 7840 dict of functools.partial
+.r: 30 6960 __builtin__.frozenset
+.r: 9 6360 dict of guppy.heapy.Use._GLUECLAMP_
+.r: 4 5856 guppy.sets.setsc.MutNodeSet
+.r: 66 5808 __builtin__.property
+.r: 11 5456 types.FrameType
+.r: 74 5328 guppy.etc.Glue.Owner
+.r: 5 5240 dict of guppy.etc.Glue.Share
+.r: 1 5064 random.Random
+.r: 15 4592 _sre.SRE_Pattern
+.r: 60 3840 _weakrefset.WeakSet
+.r: 3 3144 dict of site._Printer
+.r: 48 3072 _weakrefset.WeakSet
+.r: 28 2464 functools.partial
+.r: 96 2304 float
+.r: 32 2304 guppy.etc.Glue.Share
+.r: 8 2240 dict of guppy.etc.Glue.Interface
+.r: 7 1960 dict of __future__._Feature
+.r: 7 1960 dict of __future__._Feature
+.r: 7 1960 dict of threading._Condition
+.r: 5 1400 dict of guppy.etc.Glue.Owner
+.r: 24 1344 __builtin__.classmethod
+.r: 16 1152 __builtin__.classmethod_descriptor
+.r: 1 1048 dict of codecs.CodecInfo
+.r: 1 1048 dict of guppy.heapy.Classifiers.AndClassifier
+.r: 1 1048 dict of guppy.heapy.Classifiers.ByClass
+.r: 1 1048 dict of guppy.heapy.Classifiers.ByClassOrDictOwner
+.r: 1 1048 dict of guppy.heapy.Classifiers.ByDictOwner
+.r: 1 1048 dict of guppy.heapy.Classifiers.ByIdentity
+.r: 1 1048 dict of guppy.heapy.Classifiers.ByType
+.r: 1 1048 dict of guppy.heapy.Classifiers.ByUnity
+.r: 1 1048 dict of guppy.heapy.Console.Console
+.r: 1 1048 dict of guppy.heapy.Remote.Annex
+.r: 1 1048 dict of guppy.heapy.Remote.QueueWithReadline
+.r: 1 1048 dict of string._TemplateMetaclass
+.r: 1 1048 dict of string._TemplateMetaclass
+.r: 1 1048 dict of threading.Thread
+.r: 1 1048 dict of threading._MainThread
+.r: 1 1048 dict of threading._MainThread
+.r: 1 904 string._TemplateMetaclass
+.r: 1 904 string._TemplateMetaclass
+.r: 15 840 __builtin__.cell
+.r: 3 840 dict of site._Printer
+.r: 7 728 _sre.SRE_Match
+.r: 7 616 guppy.heapy.UniSet.EquivalenceRelation
+.r: 9 576 guppy.heapy.Use._GLUECLAMP_
+.r: 10 568 guppy.sets.setsc.ImmNodeSet
+.r: 2 560 dict of guppy.heapy.Remote.NotiInput
+.r: 2 560 dict of site.Quitter
+.r: 2 560 dict of site.Quitter
+.r: 2 560 dict of threading._Condition
+.r: 2 560 dict of threading._Event
+.r: 8 512 guppy.etc.Glue.Interface
+.r: 7 504 __future__._Feature
+.r: 7 504 __future__._Feature
+.r: 7 448 threading._Condition
+.r: 3 432 file
+.r: 12 376 long
+.r: 5 360 guppy.etc.Glue.Owner
+.r: 5 360 guppy.etc.Glue.Share
+.r: 11 352 thread.lock
+.r: 5 280 __builtin__.staticmethod
+.r: 1 280 dict of codeop.CommandCompiler
+.r: 1 280 dict of codeop.Compile
+.r: 1 280 dict of guppy.heapy.Target.Target
+.r: 1 280 dict of guppy.heapy.Target.Target
+.r: 1 280 dict of guppy.heapy.UniSet.Summary_str
+.r: 1 280 dict of guppy.heapy.Use._GLUECLAMP_
+.r: 1 280 dict of os._Environ
+.r: 1 280 dict of os._Environ
+.r: 1 280 dict of random.Random
+.r: 1 280 dict of threading._Event
+.r: 4 256 guppy.heapy.heapyc.ObjectClassifier
+.r: 2 256 socket._fileobject
+.r: 6 240 datetime.timedelta
+.r: 2 224 guppy.heapy.heapyc.HeapView
+.r: 3 192 site._Printer
+.r: 3 192 site._Printer
+.r: 2 160 guppy.heapy.heapyc.NodeGraph
+.r: 1 152 sys.flags
+.r: 3 144 __builtin__.PyCapsule
+.r: 2 144 guppy.heapy.Remote.NotiInput
+.r: 2 144 itertools.count
+.r: 2 128 __builtin__.method-wrapper
+.r: 2 128 site.Quitter
+.r: 2 128 site.Quitter
+.r: 2 128 threading._Condition
+.r: 2 128 threading._Event
+.r: 3 120 __builtin__.PyCObject
+.r: 2 112 cStringIO.StringO
+.r: 1 112 collections.deque
+.r: 1 112 socket._socketobject
+.r: 1 112 sys.float_info
+.r: 1 96 codecs.CodecInfo
+.r: 2 96 datetime.datetime
+.r: 6 96 object
+.r: 2 80 datetime.time
+.r: 1 72 codeop.CommandCompiler
+.r: 1 72 codeop.Compile
+.r: 1 72 exceptions.NameError
+.r: 1 72 guppy.heapy.Classifiers.AndClassifier
+.r: 1 72 guppy.heapy.Classifiers.ByClass
+.r: 1 72 guppy.heapy.Classifiers.ByClassOrDictOwner
+.r: 1 72 guppy.heapy.Classifiers.ByDictOwner
+.r: 1 72 guppy.heapy.Classifiers.ByIdentity
+.r: 1 72 guppy.heapy.Classifiers.ByType
+.r: 1 72 guppy.heapy.Classifiers.ByUnity
+.r: 1 72 guppy.heapy.Console.Console
+.r: 1 72 guppy.heapy.Remote.Annex
+.r: 1 72 guppy.heapy.Remote.QueueWithReadline
+.r: 1 72 guppy.heapy.Target.Target
+.r: 1 72 guppy.heapy.Target.Target
+.r: 1 72 guppy.heapy.UniSet.Summary_str
+.r: 1 72 os._Environ
+.r: 1 72 os._Environ
+.r: 2 64 datetime.date
+.r: 1 64 guppy.heapy.Use._GLUECLAMP_
+.r: 1 64 site._Helper
+.r: 1 64 site._Helper
+.r: 1 64 sys.version_info
+.r: 1 64 threading.Thread
+.r: 1 64 threading._Event
+.r: 1 64 threading._MainThread
+.r: 1 64 threading._MainThread
+.r: 1 56 _socket.socket
+.r: 2 48 bool
+.r: 3 48 imp.NullImporter
+.r: 1 40 sys.long_info
+.r: 1 16 types.EllipsisType
+.r: 1 16 types.NoneType
+.r: 1 16 types.NotImplementedType
+.end: .loader: _load_stat

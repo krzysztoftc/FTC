@@ -1,0 +1,1449 @@
+.loader: _load_stat
+.format: SetFormat
+.timemade: 1515928056.722487
+.count: 61987
+.size: 12796800
+.kindname: 
+.kindheader: Kind (class / dict of class)
+.numrows: 198
+.r: 28366 3841816 str
+.r: 275 2765400 array.array
+.r: 14474 1275392 tuple
+.r: 212 845024 dict of module
+.r: 548 572768 dict of type
+.r: 187 503944 dict (no owner)
+.r: 483 502824 unicode
+.r: 548 489672 type
+.r: 3646 466688 types.CodeType
+.r: 3518 422160 function
+.r: 2228 178240 __builtin__.wrapper_descriptor
+.r: 446 94448 list
+.r: 872 76736 __builtin__.weakref
+.r: 942 67824 types.BuiltinFunctionType
+.r: 911 65592 __builtin__.method_descriptor
+.r: 51 56520 dict of class
+.r: 210 48720 __builtin__.set
+.r: 32 47360 dict of abc.ABCMeta
+.r: 574 41328 types.GetSetDescriptorType
+.r: 37 37192 __builtin__.StgDict
+.r: 32 28928 abc.ABCMeta
+.r: 96 26880 dict of _weakrefset.WeakSet
+.r: 96 26880 dict of function
+.r: 28 25280 _ctypes.PyCSimpleType
+.r: 1014 24336 int
+.r: 6 20208 numpy.core.numerictypes._typedict
+.r: 104 19968 numpy.ufunc
+.r: 222 15984 types.MemberDescriptorType
+.r: 212 11872 module
+.r: 18 9648 dict of numpy.ma.core._MaskedBinaryOperation
+.r: 335 8040 float
+.r: 26 8016 _sre.SRE_Pattern
+.r: 26 7280 dict of numpy.ma.core._MaskedUnaryOperation
+.r: 26 7280 dict of numpy.ma.core._frommethod
+.r: 8 7200 _ctypes.PyCFuncPtrType
+.r: 78 6864 __builtin__.property
+.r: 120 6720 __builtin__.cell
+.r: 6 6288 dict of numpy.core.getlimits.MachArLike
+.r: 6 6288 dict of numpy.ma.core._DomainedBinaryOperation
+.r: 96 6144 _weakrefset.WeakSet
+.r: 67 5360 numpy.ndarray
+.r: 19 5320 dict of numpy.testing.nose_tools.nosetester.NoseTester
+.r: 51 5304 class
+.r: 5 5240 dict of guppy.etc.Glue.Share
+.r: 91 5096 __builtin__.staticmethod
+.r: 1 5064 random.Random
+.r: 21 4872 __builtin__.frozenset
+.r: 59 4720 types.MethodType
+.r: 14 3920 dict of functools.partial
+.r: 3 3144 dict of decimal.Context
+.r: 3 2680 _ctypes.PyCPointerType
+.r: 8 2240 dict of guppy.etc.Glue.Interface
+.r: 8 2240 dict of numpy.ma.core._convert2ma
+.r: 7 1960 dict of __future__._Feature
+.r: 7 1960 dict of abc.abstractproperty
+.r: 31 1736 __builtin__.classmethod
+.r: 6 1680 dict of numpy.ma.core._DomainSafeDivide
+.r: 26 1664 numpy.ma.core._MaskedUnaryOperation
+.r: 26 1664 numpy.ma.core._frommethod
+.r: 5 1400 dict of guppy.etc.Glue.Owner
+.r: 19 1368 __builtin__.classmethod_descriptor
+.r: 14 1232 functools.partial
+.r: 19 1216 numpy.testing.nose_tools.nosetester.NoseTester
+.r: 18 1152 numpy.ma.core._MaskedBinaryOperation
+.r: 4 1120 dict of numpy.ma.extras._fromnxfunction_seq
+.r: 1 1048 dict of _ctypes.PyCArrayType
+.r: 1 1048 dict of _ctypes.PyCFuncPtrType
+.r: 1 1048 dict of _ctypes.PyCPointerType
+.r: 1 1048 dict of _ctypes.PyCSimpleType
+.r: 1 1048 dict of codecs.CodecInfo
+.r: 1 1048 dict of string._TemplateMetaclass
+.r: 1 1048 dict of threading._MainThread
+.r: 31 1000 long
+.r: 1 904 ctypes._endian._swapped_meta
+.r: 1 904 string._TemplateMetaclass
+.r: 1 872 _ctypes.PyCArrayType
+.r: 1 872 _ctypes.PyCStructType
+.r: 1 872 _ctypes.UnionType
+.r: 2 864 types.FrameType
+.r: 3 840 dict of numpy.core.getlimits.iinfo
+.r: 3 840 dict of numpy.ma.core._DomainCheckInterval
+.r: 3 840 dict of numpy.ma.core._DomainGreater
+.r: 3 840 dict of numpy.ma.extras._fromnxfunction_allargs
+.r: 3 840 dict of site._Printer
+.r: 7 728 abc.abstractproperty
+.r: 1 664 dict of numpy.ma.core.MaskedConstant
+.r: 2 592 collections.OrderedDict
+.r: 9 576 operator.itemgetter
+.r: 2 560 dict of collections.OrderedDict
+.r: 2 560 dict of ctypes.LibraryLoader
+.r: 2 560 dict of numpy.fft.helper._FFTCache
+.r: 2 560 dict of numpy.lib.index_tricks.IndexExpression
+.r: 2 560 dict of numpy.lib.index_tricks.nd_grid
+.r: 2 560 dict of numpy.ma.core._DomainGreaterEqual
+.r: 2 560 dict of numpy.ma.core._extrema_operation
+.r: 2 560 dict of numpy.ma.extras._fromnxfunction_single
+.r: 2 560 dict of site.Quitter
+.r: 2 560 dict of threading._Condition
+.r: 8 512 guppy.etc.Glue.Interface
+.r: 8 512 numpy.ma.core._convert2ma
+.r: 7 504 __future__._Feature
+.r: 6 480 decimal.Decimal
+.r: 3 432 file
+.r: 13 416 numpy.datetime64
+.r: 13 416 numpy.timedelta64
+.r: 6 384 numpy.core.getlimits.MachArLike
+.r: 6 384 numpy.ma.core._DomainSafeDivide
+.r: 6 384 numpy.ma.core._DomainedBinaryOperation
+.r: 5 360 guppy.etc.Glue.Owner
+.r: 5 360 guppy.etc.Glue.Share
+.r: 3 288 numpy.dtype
+.r: 1 280 dict of _ctypes.PyCStructType
+.r: 1 280 dict of _ctypes.UnionType
+.r: 1 280 dict of ctypes.PyDLL
+.r: 1 280 dict of decimal._Log10Memoize
+.r: 1 280 dict of guppy.heapy.Target.Target
+.r: 1 280 dict of guppy.heapy.Use._GLUECLAMP_
+.r: 1 280 dict of numpy.lib._datasource._FileOpeners
+.r: 1 280 dict of numpy.lib.index_tricks.CClass
+.r: 1 280 dict of numpy.lib.index_tricks.RClass
+.r: 1 280 dict of numpy.ma.core._DomainTan
+.r: 1 280 dict of numpy.ma.core._MaskedPrintOption
+.r: 1 280 dict of numpy.ma.extras.mr_class
+.r: 1 280 dict of os._Environ
+.r: 1 280 dict of random.Random
+.r: 1 280 dict of threading._Event
+.r: 1 280 dict of weakref.WeakKeyDictionary
+.r: 4 256 numpy.ma.extras._fromnxfunction_seq
+.r: 6 240 __builtin__.PyCObject
+.r: 5 240 __builtin__.PyCapsule
+.r: 6 240 datetime.timedelta
+.r: 7 224 numpy.float128
+.r: 7 224 thread.lock
+.r: 1 208 0x209a9e0
+.r: 1 208 0x20b3ef0
+.r: 1 208 0x20b4440
+.r: 1 208 0x20b4990
+.r: 1 208 0x20b4ee0
+.r: 2 208 _sre.SRE_Match
+.r: 3 192 decimal.Context
+.r: 3 192 numpy.core.getlimits.iinfo
+.r: 3 192 numpy.ma.core._DomainCheckInterval
+.r: 3 192 numpy.ma.core._DomainGreater
+.r: 3 192 numpy.ma.extras._fromnxfunction_allargs
+.r: 3 192 site._Printer
+.r: 1 152 sys.flags
+.r: 4 128 complex
+.r: 2 128 ctypes.LibraryLoader
+.r: 2 128 numpy.fft.helper._FFTCache
+.r: 2 128 numpy.lib.index_tricks.IndexExpression
+.r: 2 128 numpy.lib.index_tricks.nd_grid
+.r: 2 128 numpy.ma.core._DomainGreaterEqual
+.r: 2 128 numpy.ma.core._extrema_operation
+.r: 2 128 numpy.ma.extras._fromnxfunction_single
+.r: 2 128 site.Quitter
+.r: 2 128 threading._Condition
+.r: 1 120 numpy.ma.core.MaskedConstant
+.r: 1 112 sys.float_info
+.r: 1 96 codecs.CodecInfo
+.r: 2 96 datetime.datetime
+.r: 1 96 thread._local
+.r: 2 80 datetime.time
+.r: 1 80 mtrand.RandomState
+.r: 1 72 guppy.heapy.Target.Target
+.r: 1 72 itertools.count
+.r: 3 72 numpy.int64
+.r: 1 72 os._Environ
+.r: 1 72 weakref.WeakKeyDictionary
+.r: 1 64 __builtin__.method-wrapper
+.r: 1 64 ctypes.PyDLL
+.r: 2 64 datetime.date
+.r: 1 64 decimal._Log10Memoize
+.r: 1 64 guppy.heapy.Use._GLUECLAMP_
+.r: 1 64 numpy.core.numeric._unspecified
+.r: 1 64 numpy.lib._datasource._FileOpeners
+.r: 1 64 numpy.lib.index_tricks.CClass
+.r: 1 64 numpy.lib.index_tricks.RClass
+.r: 1 64 numpy.ma.core._DomainTan
+.r: 1 64 numpy.ma.core._MaskedPrintOption
+.r: 1 64 numpy.ma.extras.mr_class
+.r: 1 64 site._Helper
+.r: 1 64 sys.version_info
+.r: 1 64 threading._Event
+.r: 1 64 threading._MainThread
+.r: 1 64 unittest.loader.TestLoader
+.r: 2 48 bool
+.r: 2 48 numpy.bool_
+.r: 2 48 numpy.float64
+.r: 3 48 object
+.r: 1 40 sys.long_info
+.r: 1 32 _thread._localdummy
+.r: 2 32 imp.NullImporter
+.r: 1 24 numpy.int16
+.r: 1 24 numpy.int32
+.r: 1 24 numpy.int64
+.r: 1 16 types.EllipsisType
+.r: 1 16 types.NoneType
+.r: 1 16 types.NotImplementedType
+.end: .loader: _load_stat
+.loader: _load_stat
+.format: SetFormat
+.timemade: 1515928062.861138
+.count: 61999
+.size: 12857280
+.kindname: 
+.kindheader: Kind (class / dict of class)
+.numrows: 198
+.r: 28366 3841816 str
+.r: 281 2825736 array.array
+.r: 14474 1275392 tuple
+.r: 212 845024 dict of module
+.r: 548 572768 dict of type
+.r: 187 503944 dict (no owner)
+.r: 483 502824 unicode
+.r: 548 489672 type
+.r: 3646 466688 types.CodeType
+.r: 3518 422160 function
+.r: 2228 178240 __builtin__.wrapper_descriptor
+.r: 446 94448 list
+.r: 872 76736 __builtin__.weakref
+.r: 942 67824 types.BuiltinFunctionType
+.r: 911 65592 __builtin__.method_descriptor
+.r: 51 56520 dict of class
+.r: 210 48720 __builtin__.set
+.r: 32 47360 dict of abc.ABCMeta
+.r: 574 41328 types.GetSetDescriptorType
+.r: 37 37192 __builtin__.StgDict
+.r: 32 28928 abc.ABCMeta
+.r: 96 26880 dict of _weakrefset.WeakSet
+.r: 96 26880 dict of function
+.r: 28 25280 _ctypes.PyCSimpleType
+.r: 1020 24480 int
+.r: 6 20208 numpy.core.numerictypes._typedict
+.r: 104 19968 numpy.ufunc
+.r: 222 15984 types.MemberDescriptorType
+.r: 212 11872 module
+.r: 18 9648 dict of numpy.ma.core._MaskedBinaryOperation
+.r: 335 8040 float
+.r: 26 8016 _sre.SRE_Pattern
+.r: 26 7280 dict of numpy.ma.core._MaskedUnaryOperation
+.r: 26 7280 dict of numpy.ma.core._frommethod
+.r: 8 7200 _ctypes.PyCFuncPtrType
+.r: 78 6864 __builtin__.property
+.r: 120 6720 __builtin__.cell
+.r: 6 6288 dict of numpy.core.getlimits.MachArLike
+.r: 6 6288 dict of numpy.ma.core._DomainedBinaryOperation
+.r: 96 6144 _weakrefset.WeakSet
+.r: 67 5360 numpy.ndarray
+.r: 19 5320 dict of numpy.testing.nose_tools.nosetester.NoseTester
+.r: 51 5304 class
+.r: 5 5240 dict of guppy.etc.Glue.Share
+.r: 91 5096 __builtin__.staticmethod
+.r: 1 5064 random.Random
+.r: 21 4872 __builtin__.frozenset
+.r: 59 4720 types.MethodType
+.r: 14 3920 dict of functools.partial
+.r: 3 3144 dict of decimal.Context
+.r: 3 2680 _ctypes.PyCPointerType
+.r: 8 2240 dict of guppy.etc.Glue.Interface
+.r: 8 2240 dict of numpy.ma.core._convert2ma
+.r: 7 1960 dict of __future__._Feature
+.r: 7 1960 dict of abc.abstractproperty
+.r: 31 1736 __builtin__.classmethod
+.r: 6 1680 dict of numpy.ma.core._DomainSafeDivide
+.r: 26 1664 numpy.ma.core._MaskedUnaryOperation
+.r: 26 1664 numpy.ma.core._frommethod
+.r: 5 1400 dict of guppy.etc.Glue.Owner
+.r: 19 1368 __builtin__.classmethod_descriptor
+.r: 14 1232 functools.partial
+.r: 19 1216 numpy.testing.nose_tools.nosetester.NoseTester
+.r: 18 1152 numpy.ma.core._MaskedBinaryOperation
+.r: 4 1120 dict of numpy.ma.extras._fromnxfunction_seq
+.r: 1 1048 dict of _ctypes.PyCArrayType
+.r: 1 1048 dict of _ctypes.PyCFuncPtrType
+.r: 1 1048 dict of _ctypes.PyCPointerType
+.r: 1 1048 dict of _ctypes.PyCSimpleType
+.r: 1 1048 dict of codecs.CodecInfo
+.r: 1 1048 dict of string._TemplateMetaclass
+.r: 1 1048 dict of threading._MainThread
+.r: 31 1000 long
+.r: 1 904 ctypes._endian._swapped_meta
+.r: 1 904 string._TemplateMetaclass
+.r: 1 872 _ctypes.PyCArrayType
+.r: 1 872 _ctypes.PyCStructType
+.r: 1 872 _ctypes.UnionType
+.r: 2 864 types.FrameType
+.r: 3 840 dict of numpy.core.getlimits.iinfo
+.r: 3 840 dict of numpy.ma.core._DomainCheckInterval
+.r: 3 840 dict of numpy.ma.core._DomainGreater
+.r: 3 840 dict of numpy.ma.extras._fromnxfunction_allargs
+.r: 3 840 dict of site._Printer
+.r: 7 728 abc.abstractproperty
+.r: 1 664 dict of numpy.ma.core.MaskedConstant
+.r: 2 592 collections.OrderedDict
+.r: 9 576 operator.itemgetter
+.r: 2 560 dict of collections.OrderedDict
+.r: 2 560 dict of ctypes.LibraryLoader
+.r: 2 560 dict of numpy.fft.helper._FFTCache
+.r: 2 560 dict of numpy.lib.index_tricks.IndexExpression
+.r: 2 560 dict of numpy.lib.index_tricks.nd_grid
+.r: 2 560 dict of numpy.ma.core._DomainGreaterEqual
+.r: 2 560 dict of numpy.ma.core._extrema_operation
+.r: 2 560 dict of numpy.ma.extras._fromnxfunction_single
+.r: 2 560 dict of site.Quitter
+.r: 2 560 dict of threading._Condition
+.r: 8 512 guppy.etc.Glue.Interface
+.r: 8 512 numpy.ma.core._convert2ma
+.r: 7 504 __future__._Feature
+.r: 6 480 decimal.Decimal
+.r: 3 432 file
+.r: 13 416 numpy.datetime64
+.r: 13 416 numpy.timedelta64
+.r: 6 384 numpy.core.getlimits.MachArLike
+.r: 6 384 numpy.ma.core._DomainSafeDivide
+.r: 6 384 numpy.ma.core._DomainedBinaryOperation
+.r: 5 360 guppy.etc.Glue.Owner
+.r: 5 360 guppy.etc.Glue.Share
+.r: 3 288 numpy.dtype
+.r: 1 280 dict of _ctypes.PyCStructType
+.r: 1 280 dict of _ctypes.UnionType
+.r: 1 280 dict of ctypes.PyDLL
+.r: 1 280 dict of decimal._Log10Memoize
+.r: 1 280 dict of guppy.heapy.Target.Target
+.r: 1 280 dict of guppy.heapy.Use._GLUECLAMP_
+.r: 1 280 dict of numpy.lib._datasource._FileOpeners
+.r: 1 280 dict of numpy.lib.index_tricks.CClass
+.r: 1 280 dict of numpy.lib.index_tricks.RClass
+.r: 1 280 dict of numpy.ma.core._DomainTan
+.r: 1 280 dict of numpy.ma.core._MaskedPrintOption
+.r: 1 280 dict of numpy.ma.extras.mr_class
+.r: 1 280 dict of os._Environ
+.r: 1 280 dict of random.Random
+.r: 1 280 dict of threading._Event
+.r: 1 280 dict of weakref.WeakKeyDictionary
+.r: 4 256 numpy.ma.extras._fromnxfunction_seq
+.r: 6 240 __builtin__.PyCObject
+.r: 5 240 __builtin__.PyCapsule
+.r: 6 240 datetime.timedelta
+.r: 7 224 numpy.float128
+.r: 7 224 thread.lock
+.r: 1 208 0x209a9e0
+.r: 1 208 0x20b3ef0
+.r: 1 208 0x20b4440
+.r: 1 208 0x20b4990
+.r: 1 208 0x20b4ee0
+.r: 2 208 _sre.SRE_Match
+.r: 3 192 decimal.Context
+.r: 3 192 numpy.core.getlimits.iinfo
+.r: 3 192 numpy.ma.core._DomainCheckInterval
+.r: 3 192 numpy.ma.core._DomainGreater
+.r: 3 192 numpy.ma.extras._fromnxfunction_allargs
+.r: 3 192 site._Printer
+.r: 1 152 sys.flags
+.r: 4 128 complex
+.r: 2 128 ctypes.LibraryLoader
+.r: 2 128 numpy.fft.helper._FFTCache
+.r: 2 128 numpy.lib.index_tricks.IndexExpression
+.r: 2 128 numpy.lib.index_tricks.nd_grid
+.r: 2 128 numpy.ma.core._DomainGreaterEqual
+.r: 2 128 numpy.ma.core._extrema_operation
+.r: 2 128 numpy.ma.extras._fromnxfunction_single
+.r: 2 128 site.Quitter
+.r: 2 128 threading._Condition
+.r: 1 120 numpy.ma.core.MaskedConstant
+.r: 1 112 sys.float_info
+.r: 1 96 codecs.CodecInfo
+.r: 2 96 datetime.datetime
+.r: 1 96 thread._local
+.r: 2 80 datetime.time
+.r: 1 80 mtrand.RandomState
+.r: 1 72 guppy.heapy.Target.Target
+.r: 1 72 itertools.count
+.r: 3 72 numpy.int64
+.r: 1 72 os._Environ
+.r: 1 72 weakref.WeakKeyDictionary
+.r: 1 64 __builtin__.method-wrapper
+.r: 1 64 ctypes.PyDLL
+.r: 2 64 datetime.date
+.r: 1 64 decimal._Log10Memoize
+.r: 1 64 guppy.heapy.Use._GLUECLAMP_
+.r: 1 64 numpy.core.numeric._unspecified
+.r: 1 64 numpy.lib._datasource._FileOpeners
+.r: 1 64 numpy.lib.index_tricks.CClass
+.r: 1 64 numpy.lib.index_tricks.RClass
+.r: 1 64 numpy.ma.core._DomainTan
+.r: 1 64 numpy.ma.core._MaskedPrintOption
+.r: 1 64 numpy.ma.extras.mr_class
+.r: 1 64 site._Helper
+.r: 1 64 sys.version_info
+.r: 1 64 threading._Event
+.r: 1 64 threading._MainThread
+.r: 1 64 unittest.loader.TestLoader
+.r: 2 48 bool
+.r: 2 48 numpy.bool_
+.r: 2 48 numpy.float64
+.r: 3 48 object
+.r: 1 40 sys.long_info
+.r: 1 32 _thread._localdummy
+.r: 2 32 imp.NullImporter
+.r: 1 24 numpy.int16
+.r: 1 24 numpy.int32
+.r: 1 24 numpy.int64
+.r: 1 16 types.EllipsisType
+.r: 1 16 types.NoneType
+.r: 1 16 types.NotImplementedType
+.end: .loader: _load_stat
+.loader: _load_stat
+.format: SetFormat
+.timemade: 1515928089.854254
+.count: 62053
+.size: 13129440
+.kindname: 
+.kindheader: Kind (class / dict of class)
+.numrows: 198
+.r: 28366 3841816 str
+.r: 308 3097248 array.array
+.r: 14474 1275392 tuple
+.r: 212 845024 dict of module
+.r: 548 572768 dict of type
+.r: 187 503944 dict (no owner)
+.r: 483 502824 unicode
+.r: 548 489672 type
+.r: 3646 466688 types.CodeType
+.r: 3518 422160 function
+.r: 2228 178240 __builtin__.wrapper_descriptor
+.r: 446 94448 list
+.r: 872 76736 __builtin__.weakref
+.r: 942 67824 types.BuiltinFunctionType
+.r: 911 65592 __builtin__.method_descriptor
+.r: 51 56520 dict of class
+.r: 210 48720 __builtin__.set
+.r: 32 47360 dict of abc.ABCMeta
+.r: 574 41328 types.GetSetDescriptorType
+.r: 37 37192 __builtin__.StgDict
+.r: 32 28928 abc.ABCMeta
+.r: 96 26880 dict of _weakrefset.WeakSet
+.r: 96 26880 dict of function
+.r: 28 25280 _ctypes.PyCSimpleType
+.r: 1047 25128 int
+.r: 6 20208 numpy.core.numerictypes._typedict
+.r: 104 19968 numpy.ufunc
+.r: 222 15984 types.MemberDescriptorType
+.r: 212 11872 module
+.r: 18 9648 dict of numpy.ma.core._MaskedBinaryOperation
+.r: 335 8040 float
+.r: 26 8016 _sre.SRE_Pattern
+.r: 26 7280 dict of numpy.ma.core._MaskedUnaryOperation
+.r: 26 7280 dict of numpy.ma.core._frommethod
+.r: 8 7200 _ctypes.PyCFuncPtrType
+.r: 78 6864 __builtin__.property
+.r: 120 6720 __builtin__.cell
+.r: 6 6288 dict of numpy.core.getlimits.MachArLike
+.r: 6 6288 dict of numpy.ma.core._DomainedBinaryOperation
+.r: 96 6144 _weakrefset.WeakSet
+.r: 67 5360 numpy.ndarray
+.r: 19 5320 dict of numpy.testing.nose_tools.nosetester.NoseTester
+.r: 51 5304 class
+.r: 5 5240 dict of guppy.etc.Glue.Share
+.r: 91 5096 __builtin__.staticmethod
+.r: 1 5064 random.Random
+.r: 21 4872 __builtin__.frozenset
+.r: 59 4720 types.MethodType
+.r: 14 3920 dict of functools.partial
+.r: 3 3144 dict of decimal.Context
+.r: 3 2680 _ctypes.PyCPointerType
+.r: 8 2240 dict of guppy.etc.Glue.Interface
+.r: 8 2240 dict of numpy.ma.core._convert2ma
+.r: 7 1960 dict of __future__._Feature
+.r: 7 1960 dict of abc.abstractproperty
+.r: 31 1736 __builtin__.classmethod
+.r: 6 1680 dict of numpy.ma.core._DomainSafeDivide
+.r: 26 1664 numpy.ma.core._MaskedUnaryOperation
+.r: 26 1664 numpy.ma.core._frommethod
+.r: 5 1400 dict of guppy.etc.Glue.Owner
+.r: 19 1368 __builtin__.classmethod_descriptor
+.r: 14 1232 functools.partial
+.r: 19 1216 numpy.testing.nose_tools.nosetester.NoseTester
+.r: 18 1152 numpy.ma.core._MaskedBinaryOperation
+.r: 4 1120 dict of numpy.ma.extras._fromnxfunction_seq
+.r: 1 1048 dict of _ctypes.PyCArrayType
+.r: 1 1048 dict of _ctypes.PyCFuncPtrType
+.r: 1 1048 dict of _ctypes.PyCPointerType
+.r: 1 1048 dict of _ctypes.PyCSimpleType
+.r: 1 1048 dict of codecs.CodecInfo
+.r: 1 1048 dict of string._TemplateMetaclass
+.r: 1 1048 dict of threading._MainThread
+.r: 31 1000 long
+.r: 1 904 ctypes._endian._swapped_meta
+.r: 1 904 string._TemplateMetaclass
+.r: 1 872 _ctypes.PyCArrayType
+.r: 1 872 _ctypes.PyCStructType
+.r: 1 872 _ctypes.UnionType
+.r: 2 864 types.FrameType
+.r: 3 840 dict of numpy.core.getlimits.iinfo
+.r: 3 840 dict of numpy.ma.core._DomainCheckInterval
+.r: 3 840 dict of numpy.ma.core._DomainGreater
+.r: 3 840 dict of numpy.ma.extras._fromnxfunction_allargs
+.r: 3 840 dict of site._Printer
+.r: 7 728 abc.abstractproperty
+.r: 1 664 dict of numpy.ma.core.MaskedConstant
+.r: 2 592 collections.OrderedDict
+.r: 9 576 operator.itemgetter
+.r: 2 560 dict of collections.OrderedDict
+.r: 2 560 dict of ctypes.LibraryLoader
+.r: 2 560 dict of numpy.fft.helper._FFTCache
+.r: 2 560 dict of numpy.lib.index_tricks.IndexExpression
+.r: 2 560 dict of numpy.lib.index_tricks.nd_grid
+.r: 2 560 dict of numpy.ma.core._DomainGreaterEqual
+.r: 2 560 dict of numpy.ma.core._extrema_operation
+.r: 2 560 dict of numpy.ma.extras._fromnxfunction_single
+.r: 2 560 dict of site.Quitter
+.r: 2 560 dict of threading._Condition
+.r: 8 512 guppy.etc.Glue.Interface
+.r: 8 512 numpy.ma.core._convert2ma
+.r: 7 504 __future__._Feature
+.r: 6 480 decimal.Decimal
+.r: 3 432 file
+.r: 13 416 numpy.datetime64
+.r: 13 416 numpy.timedelta64
+.r: 6 384 numpy.core.getlimits.MachArLike
+.r: 6 384 numpy.ma.core._DomainSafeDivide
+.r: 6 384 numpy.ma.core._DomainedBinaryOperation
+.r: 5 360 guppy.etc.Glue.Owner
+.r: 5 360 guppy.etc.Glue.Share
+.r: 3 288 numpy.dtype
+.r: 1 280 dict of _ctypes.PyCStructType
+.r: 1 280 dict of _ctypes.UnionType
+.r: 1 280 dict of ctypes.PyDLL
+.r: 1 280 dict of decimal._Log10Memoize
+.r: 1 280 dict of guppy.heapy.Target.Target
+.r: 1 280 dict of guppy.heapy.Use._GLUECLAMP_
+.r: 1 280 dict of numpy.lib._datasource._FileOpeners
+.r: 1 280 dict of numpy.lib.index_tricks.CClass
+.r: 1 280 dict of numpy.lib.index_tricks.RClass
+.r: 1 280 dict of numpy.ma.core._DomainTan
+.r: 1 280 dict of numpy.ma.core._MaskedPrintOption
+.r: 1 280 dict of numpy.ma.extras.mr_class
+.r: 1 280 dict of os._Environ
+.r: 1 280 dict of random.Random
+.r: 1 280 dict of threading._Event
+.r: 1 280 dict of weakref.WeakKeyDictionary
+.r: 4 256 numpy.ma.extras._fromnxfunction_seq
+.r: 6 240 __builtin__.PyCObject
+.r: 5 240 __builtin__.PyCapsule
+.r: 6 240 datetime.timedelta
+.r: 7 224 numpy.float128
+.r: 7 224 thread.lock
+.r: 1 208 0x209a9e0
+.r: 1 208 0x20b3ef0
+.r: 1 208 0x20b4440
+.r: 1 208 0x20b4990
+.r: 1 208 0x20b4ee0
+.r: 2 208 _sre.SRE_Match
+.r: 3 192 decimal.Context
+.r: 3 192 numpy.core.getlimits.iinfo
+.r: 3 192 numpy.ma.core._DomainCheckInterval
+.r: 3 192 numpy.ma.core._DomainGreater
+.r: 3 192 numpy.ma.extras._fromnxfunction_allargs
+.r: 3 192 site._Printer
+.r: 1 152 sys.flags
+.r: 4 128 complex
+.r: 2 128 ctypes.LibraryLoader
+.r: 2 128 numpy.fft.helper._FFTCache
+.r: 2 128 numpy.lib.index_tricks.IndexExpression
+.r: 2 128 numpy.lib.index_tricks.nd_grid
+.r: 2 128 numpy.ma.core._DomainGreaterEqual
+.r: 2 128 numpy.ma.core._extrema_operation
+.r: 2 128 numpy.ma.extras._fromnxfunction_single
+.r: 2 128 site.Quitter
+.r: 2 128 threading._Condition
+.r: 1 120 numpy.ma.core.MaskedConstant
+.r: 1 112 sys.float_info
+.r: 1 96 codecs.CodecInfo
+.r: 2 96 datetime.datetime
+.r: 1 96 thread._local
+.r: 2 80 datetime.time
+.r: 1 80 mtrand.RandomState
+.r: 1 72 guppy.heapy.Target.Target
+.r: 1 72 itertools.count
+.r: 3 72 numpy.int64
+.r: 1 72 os._Environ
+.r: 1 72 weakref.WeakKeyDictionary
+.r: 1 64 __builtin__.method-wrapper
+.r: 1 64 ctypes.PyDLL
+.r: 2 64 datetime.date
+.r: 1 64 decimal._Log10Memoize
+.r: 1 64 guppy.heapy.Use._GLUECLAMP_
+.r: 1 64 numpy.core.numeric._unspecified
+.r: 1 64 numpy.lib._datasource._FileOpeners
+.r: 1 64 numpy.lib.index_tricks.CClass
+.r: 1 64 numpy.lib.index_tricks.RClass
+.r: 1 64 numpy.ma.core._DomainTan
+.r: 1 64 numpy.ma.core._MaskedPrintOption
+.r: 1 64 numpy.ma.extras.mr_class
+.r: 1 64 site._Helper
+.r: 1 64 sys.version_info
+.r: 1 64 threading._Event
+.r: 1 64 threading._MainThread
+.r: 1 64 unittest.loader.TestLoader
+.r: 2 48 bool
+.r: 2 48 numpy.bool_
+.r: 2 48 numpy.float64
+.r: 3 48 object
+.r: 1 40 sys.long_info
+.r: 1 32 _thread._localdummy
+.r: 2 32 imp.NullImporter
+.r: 1 24 numpy.int16
+.r: 1 24 numpy.int32
+.r: 1 24 numpy.int64
+.r: 1 16 types.EllipsisType
+.r: 1 16 types.NoneType
+.r: 1 16 types.NotImplementedType
+.end: .loader: _load_stat
+.loader: _load_stat
+.format: SetFormat
+.timemade: 1515928092.187072
+.count: 62057
+.size: 13149600
+.kindname: 
+.kindheader: Kind (class / dict of class)
+.numrows: 198
+.r: 28366 3841816 str
+.r: 310 3117360 array.array
+.r: 14474 1275392 tuple
+.r: 212 845024 dict of module
+.r: 548 572768 dict of type
+.r: 187 503944 dict (no owner)
+.r: 483 502824 unicode
+.r: 548 489672 type
+.r: 3646 466688 types.CodeType
+.r: 3518 422160 function
+.r: 2228 178240 __builtin__.wrapper_descriptor
+.r: 446 94448 list
+.r: 872 76736 __builtin__.weakref
+.r: 942 67824 types.BuiltinFunctionType
+.r: 911 65592 __builtin__.method_descriptor
+.r: 51 56520 dict of class
+.r: 210 48720 __builtin__.set
+.r: 32 47360 dict of abc.ABCMeta
+.r: 574 41328 types.GetSetDescriptorType
+.r: 37 37192 __builtin__.StgDict
+.r: 32 28928 abc.ABCMeta
+.r: 96 26880 dict of _weakrefset.WeakSet
+.r: 96 26880 dict of function
+.r: 28 25280 _ctypes.PyCSimpleType
+.r: 1049 25176 int
+.r: 6 20208 numpy.core.numerictypes._typedict
+.r: 104 19968 numpy.ufunc
+.r: 222 15984 types.MemberDescriptorType
+.r: 212 11872 module
+.r: 18 9648 dict of numpy.ma.core._MaskedBinaryOperation
+.r: 335 8040 float
+.r: 26 8016 _sre.SRE_Pattern
+.r: 26 7280 dict of numpy.ma.core._MaskedUnaryOperation
+.r: 26 7280 dict of numpy.ma.core._frommethod
+.r: 8 7200 _ctypes.PyCFuncPtrType
+.r: 78 6864 __builtin__.property
+.r: 120 6720 __builtin__.cell
+.r: 6 6288 dict of numpy.core.getlimits.MachArLike
+.r: 6 6288 dict of numpy.ma.core._DomainedBinaryOperation
+.r: 96 6144 _weakrefset.WeakSet
+.r: 67 5360 numpy.ndarray
+.r: 19 5320 dict of numpy.testing.nose_tools.nosetester.NoseTester
+.r: 51 5304 class
+.r: 5 5240 dict of guppy.etc.Glue.Share
+.r: 91 5096 __builtin__.staticmethod
+.r: 1 5064 random.Random
+.r: 21 4872 __builtin__.frozenset
+.r: 59 4720 types.MethodType
+.r: 14 3920 dict of functools.partial
+.r: 3 3144 dict of decimal.Context
+.r: 3 2680 _ctypes.PyCPointerType
+.r: 8 2240 dict of guppy.etc.Glue.Interface
+.r: 8 2240 dict of numpy.ma.core._convert2ma
+.r: 7 1960 dict of __future__._Feature
+.r: 7 1960 dict of abc.abstractproperty
+.r: 31 1736 __builtin__.classmethod
+.r: 6 1680 dict of numpy.ma.core._DomainSafeDivide
+.r: 26 1664 numpy.ma.core._MaskedUnaryOperation
+.r: 26 1664 numpy.ma.core._frommethod
+.r: 5 1400 dict of guppy.etc.Glue.Owner
+.r: 19 1368 __builtin__.classmethod_descriptor
+.r: 14 1232 functools.partial
+.r: 19 1216 numpy.testing.nose_tools.nosetester.NoseTester
+.r: 18 1152 numpy.ma.core._MaskedBinaryOperation
+.r: 4 1120 dict of numpy.ma.extras._fromnxfunction_seq
+.r: 1 1048 dict of _ctypes.PyCArrayType
+.r: 1 1048 dict of _ctypes.PyCFuncPtrType
+.r: 1 1048 dict of _ctypes.PyCPointerType
+.r: 1 1048 dict of _ctypes.PyCSimpleType
+.r: 1 1048 dict of codecs.CodecInfo
+.r: 1 1048 dict of string._TemplateMetaclass
+.r: 1 1048 dict of threading._MainThread
+.r: 31 1000 long
+.r: 1 904 ctypes._endian._swapped_meta
+.r: 1 904 string._TemplateMetaclass
+.r: 1 872 _ctypes.PyCArrayType
+.r: 1 872 _ctypes.PyCStructType
+.r: 1 872 _ctypes.UnionType
+.r: 2 864 types.FrameType
+.r: 3 840 dict of numpy.core.getlimits.iinfo
+.r: 3 840 dict of numpy.ma.core._DomainCheckInterval
+.r: 3 840 dict of numpy.ma.core._DomainGreater
+.r: 3 840 dict of numpy.ma.extras._fromnxfunction_allargs
+.r: 3 840 dict of site._Printer
+.r: 7 728 abc.abstractproperty
+.r: 1 664 dict of numpy.ma.core.MaskedConstant
+.r: 2 592 collections.OrderedDict
+.r: 9 576 operator.itemgetter
+.r: 2 560 dict of collections.OrderedDict
+.r: 2 560 dict of ctypes.LibraryLoader
+.r: 2 560 dict of numpy.fft.helper._FFTCache
+.r: 2 560 dict of numpy.lib.index_tricks.IndexExpression
+.r: 2 560 dict of numpy.lib.index_tricks.nd_grid
+.r: 2 560 dict of numpy.ma.core._DomainGreaterEqual
+.r: 2 560 dict of numpy.ma.core._extrema_operation
+.r: 2 560 dict of numpy.ma.extras._fromnxfunction_single
+.r: 2 560 dict of site.Quitter
+.r: 2 560 dict of threading._Condition
+.r: 8 512 guppy.etc.Glue.Interface
+.r: 8 512 numpy.ma.core._convert2ma
+.r: 7 504 __future__._Feature
+.r: 6 480 decimal.Decimal
+.r: 3 432 file
+.r: 13 416 numpy.datetime64
+.r: 13 416 numpy.timedelta64
+.r: 6 384 numpy.core.getlimits.MachArLike
+.r: 6 384 numpy.ma.core._DomainSafeDivide
+.r: 6 384 numpy.ma.core._DomainedBinaryOperation
+.r: 5 360 guppy.etc.Glue.Owner
+.r: 5 360 guppy.etc.Glue.Share
+.r: 3 288 numpy.dtype
+.r: 1 280 dict of _ctypes.PyCStructType
+.r: 1 280 dict of _ctypes.UnionType
+.r: 1 280 dict of ctypes.PyDLL
+.r: 1 280 dict of decimal._Log10Memoize
+.r: 1 280 dict of guppy.heapy.Target.Target
+.r: 1 280 dict of guppy.heapy.Use._GLUECLAMP_
+.r: 1 280 dict of numpy.lib._datasource._FileOpeners
+.r: 1 280 dict of numpy.lib.index_tricks.CClass
+.r: 1 280 dict of numpy.lib.index_tricks.RClass
+.r: 1 280 dict of numpy.ma.core._DomainTan
+.r: 1 280 dict of numpy.ma.core._MaskedPrintOption
+.r: 1 280 dict of numpy.ma.extras.mr_class
+.r: 1 280 dict of os._Environ
+.r: 1 280 dict of random.Random
+.r: 1 280 dict of threading._Event
+.r: 1 280 dict of weakref.WeakKeyDictionary
+.r: 4 256 numpy.ma.extras._fromnxfunction_seq
+.r: 6 240 __builtin__.PyCObject
+.r: 5 240 __builtin__.PyCapsule
+.r: 6 240 datetime.timedelta
+.r: 7 224 numpy.float128
+.r: 7 224 thread.lock
+.r: 1 208 0x209a9e0
+.r: 1 208 0x20b3ef0
+.r: 1 208 0x20b4440
+.r: 1 208 0x20b4990
+.r: 1 208 0x20b4ee0
+.r: 2 208 _sre.SRE_Match
+.r: 3 192 decimal.Context
+.r: 3 192 numpy.core.getlimits.iinfo
+.r: 3 192 numpy.ma.core._DomainCheckInterval
+.r: 3 192 numpy.ma.core._DomainGreater
+.r: 3 192 numpy.ma.extras._fromnxfunction_allargs
+.r: 3 192 site._Printer
+.r: 1 152 sys.flags
+.r: 4 128 complex
+.r: 2 128 ctypes.LibraryLoader
+.r: 2 128 numpy.fft.helper._FFTCache
+.r: 2 128 numpy.lib.index_tricks.IndexExpression
+.r: 2 128 numpy.lib.index_tricks.nd_grid
+.r: 2 128 numpy.ma.core._DomainGreaterEqual
+.r: 2 128 numpy.ma.core._extrema_operation
+.r: 2 128 numpy.ma.extras._fromnxfunction_single
+.r: 2 128 site.Quitter
+.r: 2 128 threading._Condition
+.r: 1 120 numpy.ma.core.MaskedConstant
+.r: 1 112 sys.float_info
+.r: 1 96 codecs.CodecInfo
+.r: 2 96 datetime.datetime
+.r: 1 96 thread._local
+.r: 2 80 datetime.time
+.r: 1 80 mtrand.RandomState
+.r: 1 72 guppy.heapy.Target.Target
+.r: 1 72 itertools.count
+.r: 3 72 numpy.int64
+.r: 1 72 os._Environ
+.r: 1 72 weakref.WeakKeyDictionary
+.r: 1 64 __builtin__.method-wrapper
+.r: 1 64 ctypes.PyDLL
+.r: 2 64 datetime.date
+.r: 1 64 decimal._Log10Memoize
+.r: 1 64 guppy.heapy.Use._GLUECLAMP_
+.r: 1 64 numpy.core.numeric._unspecified
+.r: 1 64 numpy.lib._datasource._FileOpeners
+.r: 1 64 numpy.lib.index_tricks.CClass
+.r: 1 64 numpy.lib.index_tricks.RClass
+.r: 1 64 numpy.ma.core._DomainTan
+.r: 1 64 numpy.ma.core._MaskedPrintOption
+.r: 1 64 numpy.ma.extras.mr_class
+.r: 1 64 site._Helper
+.r: 1 64 sys.version_info
+.r: 1 64 threading._Event
+.r: 1 64 threading._MainThread
+.r: 1 64 unittest.loader.TestLoader
+.r: 2 48 bool
+.r: 2 48 numpy.bool_
+.r: 2 48 numpy.float64
+.r: 3 48 object
+.r: 1 40 sys.long_info
+.r: 1 32 _thread._localdummy
+.r: 2 32 imp.NullImporter
+.r: 1 24 numpy.int16
+.r: 1 24 numpy.int32
+.r: 1 24 numpy.int64
+.r: 1 16 types.EllipsisType
+.r: 1 16 types.NoneType
+.r: 1 16 types.NotImplementedType
+.end: .loader: _load_stat
+.loader: _load_stat
+.format: SetFormat
+.timemade: 1515928105.073179
+.count: 62083
+.size: 13281664
+.kindname: 
+.kindheader: Kind (class / dict of class)
+.numrows: 198
+.r: 28366 3841816 str
+.r: 323 3248088 array.array
+.r: 14474 1275392 tuple
+.r: 212 845024 dict of module
+.r: 548 572768 dict of type
+.r: 187 503944 dict (no owner)
+.r: 483 502824 unicode
+.r: 548 489672 type
+.r: 3646 466688 types.CodeType
+.r: 3518 422160 function
+.r: 2228 178240 __builtin__.wrapper_descriptor
+.r: 446 95472 list
+.r: 872 76736 __builtin__.weakref
+.r: 942 67824 types.BuiltinFunctionType
+.r: 911 65592 __builtin__.method_descriptor
+.r: 51 56520 dict of class
+.r: 210 48720 __builtin__.set
+.r: 32 47360 dict of abc.ABCMeta
+.r: 574 41328 types.GetSetDescriptorType
+.r: 37 37192 __builtin__.StgDict
+.r: 32 28928 abc.ABCMeta
+.r: 96 26880 dict of _weakrefset.WeakSet
+.r: 96 26880 dict of function
+.r: 1062 25488 int
+.r: 28 25280 _ctypes.PyCSimpleType
+.r: 6 20208 numpy.core.numerictypes._typedict
+.r: 104 19968 numpy.ufunc
+.r: 222 15984 types.MemberDescriptorType
+.r: 212 11872 module
+.r: 18 9648 dict of numpy.ma.core._MaskedBinaryOperation
+.r: 335 8040 float
+.r: 26 8016 _sre.SRE_Pattern
+.r: 26 7280 dict of numpy.ma.core._MaskedUnaryOperation
+.r: 26 7280 dict of numpy.ma.core._frommethod
+.r: 8 7200 _ctypes.PyCFuncPtrType
+.r: 78 6864 __builtin__.property
+.r: 120 6720 __builtin__.cell
+.r: 6 6288 dict of numpy.core.getlimits.MachArLike
+.r: 6 6288 dict of numpy.ma.core._DomainedBinaryOperation
+.r: 96 6144 _weakrefset.WeakSet
+.r: 67 5360 numpy.ndarray
+.r: 19 5320 dict of numpy.testing.nose_tools.nosetester.NoseTester
+.r: 51 5304 class
+.r: 5 5240 dict of guppy.etc.Glue.Share
+.r: 91 5096 __builtin__.staticmethod
+.r: 1 5064 random.Random
+.r: 21 4872 __builtin__.frozenset
+.r: 59 4720 types.MethodType
+.r: 14 3920 dict of functools.partial
+.r: 3 3144 dict of decimal.Context
+.r: 3 2680 _ctypes.PyCPointerType
+.r: 8 2240 dict of guppy.etc.Glue.Interface
+.r: 8 2240 dict of numpy.ma.core._convert2ma
+.r: 7 1960 dict of __future__._Feature
+.r: 7 1960 dict of abc.abstractproperty
+.r: 31 1736 __builtin__.classmethod
+.r: 6 1680 dict of numpy.ma.core._DomainSafeDivide
+.r: 26 1664 numpy.ma.core._MaskedUnaryOperation
+.r: 26 1664 numpy.ma.core._frommethod
+.r: 5 1400 dict of guppy.etc.Glue.Owner
+.r: 19 1368 __builtin__.classmethod_descriptor
+.r: 14 1232 functools.partial
+.r: 19 1216 numpy.testing.nose_tools.nosetester.NoseTester
+.r: 18 1152 numpy.ma.core._MaskedBinaryOperation
+.r: 4 1120 dict of numpy.ma.extras._fromnxfunction_seq
+.r: 1 1048 dict of _ctypes.PyCArrayType
+.r: 1 1048 dict of _ctypes.PyCFuncPtrType
+.r: 1 1048 dict of _ctypes.PyCPointerType
+.r: 1 1048 dict of _ctypes.PyCSimpleType
+.r: 1 1048 dict of codecs.CodecInfo
+.r: 1 1048 dict of string._TemplateMetaclass
+.r: 1 1048 dict of threading._MainThread
+.r: 31 1000 long
+.r: 1 904 ctypes._endian._swapped_meta
+.r: 1 904 string._TemplateMetaclass
+.r: 1 872 _ctypes.PyCArrayType
+.r: 1 872 _ctypes.PyCStructType
+.r: 1 872 _ctypes.UnionType
+.r: 2 864 types.FrameType
+.r: 3 840 dict of numpy.core.getlimits.iinfo
+.r: 3 840 dict of numpy.ma.core._DomainCheckInterval
+.r: 3 840 dict of numpy.ma.core._DomainGreater
+.r: 3 840 dict of numpy.ma.extras._fromnxfunction_allargs
+.r: 3 840 dict of site._Printer
+.r: 7 728 abc.abstractproperty
+.r: 1 664 dict of numpy.ma.core.MaskedConstant
+.r: 2 592 collections.OrderedDict
+.r: 9 576 operator.itemgetter
+.r: 2 560 dict of collections.OrderedDict
+.r: 2 560 dict of ctypes.LibraryLoader
+.r: 2 560 dict of numpy.fft.helper._FFTCache
+.r: 2 560 dict of numpy.lib.index_tricks.IndexExpression
+.r: 2 560 dict of numpy.lib.index_tricks.nd_grid
+.r: 2 560 dict of numpy.ma.core._DomainGreaterEqual
+.r: 2 560 dict of numpy.ma.core._extrema_operation
+.r: 2 560 dict of numpy.ma.extras._fromnxfunction_single
+.r: 2 560 dict of site.Quitter
+.r: 2 560 dict of threading._Condition
+.r: 8 512 guppy.etc.Glue.Interface
+.r: 8 512 numpy.ma.core._convert2ma
+.r: 7 504 __future__._Feature
+.r: 6 480 decimal.Decimal
+.r: 3 432 file
+.r: 13 416 numpy.datetime64
+.r: 13 416 numpy.timedelta64
+.r: 6 384 numpy.core.getlimits.MachArLike
+.r: 6 384 numpy.ma.core._DomainSafeDivide
+.r: 6 384 numpy.ma.core._DomainedBinaryOperation
+.r: 5 360 guppy.etc.Glue.Owner
+.r: 5 360 guppy.etc.Glue.Share
+.r: 3 288 numpy.dtype
+.r: 1 280 dict of _ctypes.PyCStructType
+.r: 1 280 dict of _ctypes.UnionType
+.r: 1 280 dict of ctypes.PyDLL
+.r: 1 280 dict of decimal._Log10Memoize
+.r: 1 280 dict of guppy.heapy.Target.Target
+.r: 1 280 dict of guppy.heapy.Use._GLUECLAMP_
+.r: 1 280 dict of numpy.lib._datasource._FileOpeners
+.r: 1 280 dict of numpy.lib.index_tricks.CClass
+.r: 1 280 dict of numpy.lib.index_tricks.RClass
+.r: 1 280 dict of numpy.ma.core._DomainTan
+.r: 1 280 dict of numpy.ma.core._MaskedPrintOption
+.r: 1 280 dict of numpy.ma.extras.mr_class
+.r: 1 280 dict of os._Environ
+.r: 1 280 dict of random.Random
+.r: 1 280 dict of threading._Event
+.r: 1 280 dict of weakref.WeakKeyDictionary
+.r: 4 256 numpy.ma.extras._fromnxfunction_seq
+.r: 6 240 __builtin__.PyCObject
+.r: 5 240 __builtin__.PyCapsule
+.r: 6 240 datetime.timedelta
+.r: 7 224 numpy.float128
+.r: 7 224 thread.lock
+.r: 1 208 0x209a9e0
+.r: 1 208 0x20b3ef0
+.r: 1 208 0x20b4440
+.r: 1 208 0x20b4990
+.r: 1 208 0x20b4ee0
+.r: 2 208 _sre.SRE_Match
+.r: 3 192 decimal.Context
+.r: 3 192 numpy.core.getlimits.iinfo
+.r: 3 192 numpy.ma.core._DomainCheckInterval
+.r: 3 192 numpy.ma.core._DomainGreater
+.r: 3 192 numpy.ma.extras._fromnxfunction_allargs
+.r: 3 192 site._Printer
+.r: 1 152 sys.flags
+.r: 4 128 complex
+.r: 2 128 ctypes.LibraryLoader
+.r: 2 128 numpy.fft.helper._FFTCache
+.r: 2 128 numpy.lib.index_tricks.IndexExpression
+.r: 2 128 numpy.lib.index_tricks.nd_grid
+.r: 2 128 numpy.ma.core._DomainGreaterEqual
+.r: 2 128 numpy.ma.core._extrema_operation
+.r: 2 128 numpy.ma.extras._fromnxfunction_single
+.r: 2 128 site.Quitter
+.r: 2 128 threading._Condition
+.r: 1 120 numpy.ma.core.MaskedConstant
+.r: 1 112 sys.float_info
+.r: 1 96 codecs.CodecInfo
+.r: 2 96 datetime.datetime
+.r: 1 96 thread._local
+.r: 2 80 datetime.time
+.r: 1 80 mtrand.RandomState
+.r: 1 72 guppy.heapy.Target.Target
+.r: 1 72 itertools.count
+.r: 3 72 numpy.int64
+.r: 1 72 os._Environ
+.r: 1 72 weakref.WeakKeyDictionary
+.r: 1 64 __builtin__.method-wrapper
+.r: 1 64 ctypes.PyDLL
+.r: 2 64 datetime.date
+.r: 1 64 decimal._Log10Memoize
+.r: 1 64 guppy.heapy.Use._GLUECLAMP_
+.r: 1 64 numpy.core.numeric._unspecified
+.r: 1 64 numpy.lib._datasource._FileOpeners
+.r: 1 64 numpy.lib.index_tricks.CClass
+.r: 1 64 numpy.lib.index_tricks.RClass
+.r: 1 64 numpy.ma.core._DomainTan
+.r: 1 64 numpy.ma.core._MaskedPrintOption
+.r: 1 64 numpy.ma.extras.mr_class
+.r: 1 64 site._Helper
+.r: 1 64 sys.version_info
+.r: 1 64 threading._Event
+.r: 1 64 threading._MainThread
+.r: 1 64 unittest.loader.TestLoader
+.r: 2 48 bool
+.r: 2 48 numpy.bool_
+.r: 2 48 numpy.float64
+.r: 3 48 object
+.r: 1 40 sys.long_info
+.r: 1 32 _thread._localdummy
+.r: 2 32 imp.NullImporter
+.r: 1 24 numpy.int16
+.r: 1 24 numpy.int32
+.r: 1 24 numpy.int64
+.r: 1 16 types.EllipsisType
+.r: 1 16 types.NoneType
+.r: 1 16 types.NotImplementedType
+.end: .loader: _load_stat
+.loader: _load_stat
+.format: SetFormat
+.timemade: 1515928107.453600
+.count: 62089
+.size: 13311904
+.kindname: 
+.kindheader: Kind (class / dict of class)
+.numrows: 198
+.r: 28366 3841816 str
+.r: 326 3278256 array.array
+.r: 14474 1275392 tuple
+.r: 212 845024 dict of module
+.r: 548 572768 dict of type
+.r: 187 503944 dict (no owner)
+.r: 483 502824 unicode
+.r: 548 489672 type
+.r: 3646 466688 types.CodeType
+.r: 3518 422160 function
+.r: 2228 178240 __builtin__.wrapper_descriptor
+.r: 446 95472 list
+.r: 872 76736 __builtin__.weakref
+.r: 942 67824 types.BuiltinFunctionType
+.r: 911 65592 __builtin__.method_descriptor
+.r: 51 56520 dict of class
+.r: 210 48720 __builtin__.set
+.r: 32 47360 dict of abc.ABCMeta
+.r: 574 41328 types.GetSetDescriptorType
+.r: 37 37192 __builtin__.StgDict
+.r: 32 28928 abc.ABCMeta
+.r: 96 26880 dict of _weakrefset.WeakSet
+.r: 96 26880 dict of function
+.r: 1065 25560 int
+.r: 28 25280 _ctypes.PyCSimpleType
+.r: 6 20208 numpy.core.numerictypes._typedict
+.r: 104 19968 numpy.ufunc
+.r: 222 15984 types.MemberDescriptorType
+.r: 212 11872 module
+.r: 18 9648 dict of numpy.ma.core._MaskedBinaryOperation
+.r: 335 8040 float
+.r: 26 8016 _sre.SRE_Pattern
+.r: 26 7280 dict of numpy.ma.core._MaskedUnaryOperation
+.r: 26 7280 dict of numpy.ma.core._frommethod
+.r: 8 7200 _ctypes.PyCFuncPtrType
+.r: 78 6864 __builtin__.property
+.r: 120 6720 __builtin__.cell
+.r: 6 6288 dict of numpy.core.getlimits.MachArLike
+.r: 6 6288 dict of numpy.ma.core._DomainedBinaryOperation
+.r: 96 6144 _weakrefset.WeakSet
+.r: 67 5360 numpy.ndarray
+.r: 19 5320 dict of numpy.testing.nose_tools.nosetester.NoseTester
+.r: 51 5304 class
+.r: 5 5240 dict of guppy.etc.Glue.Share
+.r: 91 5096 __builtin__.staticmethod
+.r: 1 5064 random.Random
+.r: 21 4872 __builtin__.frozenset
+.r: 59 4720 types.MethodType
+.r: 14 3920 dict of functools.partial
+.r: 3 3144 dict of decimal.Context
+.r: 3 2680 _ctypes.PyCPointerType
+.r: 8 2240 dict of guppy.etc.Glue.Interface
+.r: 8 2240 dict of numpy.ma.core._convert2ma
+.r: 7 1960 dict of __future__._Feature
+.r: 7 1960 dict of abc.abstractproperty
+.r: 31 1736 __builtin__.classmethod
+.r: 6 1680 dict of numpy.ma.core._DomainSafeDivide
+.r: 26 1664 numpy.ma.core._MaskedUnaryOperation
+.r: 26 1664 numpy.ma.core._frommethod
+.r: 5 1400 dict of guppy.etc.Glue.Owner
+.r: 19 1368 __builtin__.classmethod_descriptor
+.r: 14 1232 functools.partial
+.r: 19 1216 numpy.testing.nose_tools.nosetester.NoseTester
+.r: 18 1152 numpy.ma.core._MaskedBinaryOperation
+.r: 4 1120 dict of numpy.ma.extras._fromnxfunction_seq
+.r: 1 1048 dict of _ctypes.PyCArrayType
+.r: 1 1048 dict of _ctypes.PyCFuncPtrType
+.r: 1 1048 dict of _ctypes.PyCPointerType
+.r: 1 1048 dict of _ctypes.PyCSimpleType
+.r: 1 1048 dict of codecs.CodecInfo
+.r: 1 1048 dict of string._TemplateMetaclass
+.r: 1 1048 dict of threading._MainThread
+.r: 31 1000 long
+.r: 1 904 ctypes._endian._swapped_meta
+.r: 1 904 string._TemplateMetaclass
+.r: 1 872 _ctypes.PyCArrayType
+.r: 1 872 _ctypes.PyCStructType
+.r: 1 872 _ctypes.UnionType
+.r: 2 864 types.FrameType
+.r: 3 840 dict of numpy.core.getlimits.iinfo
+.r: 3 840 dict of numpy.ma.core._DomainCheckInterval
+.r: 3 840 dict of numpy.ma.core._DomainGreater
+.r: 3 840 dict of numpy.ma.extras._fromnxfunction_allargs
+.r: 3 840 dict of site._Printer
+.r: 7 728 abc.abstractproperty
+.r: 1 664 dict of numpy.ma.core.MaskedConstant
+.r: 2 592 collections.OrderedDict
+.r: 9 576 operator.itemgetter
+.r: 2 560 dict of collections.OrderedDict
+.r: 2 560 dict of ctypes.LibraryLoader
+.r: 2 560 dict of numpy.fft.helper._FFTCache
+.r: 2 560 dict of numpy.lib.index_tricks.IndexExpression
+.r: 2 560 dict of numpy.lib.index_tricks.nd_grid
+.r: 2 560 dict of numpy.ma.core._DomainGreaterEqual
+.r: 2 560 dict of numpy.ma.core._extrema_operation
+.r: 2 560 dict of numpy.ma.extras._fromnxfunction_single
+.r: 2 560 dict of site.Quitter
+.r: 2 560 dict of threading._Condition
+.r: 8 512 guppy.etc.Glue.Interface
+.r: 8 512 numpy.ma.core._convert2ma
+.r: 7 504 __future__._Feature
+.r: 6 480 decimal.Decimal
+.r: 3 432 file
+.r: 13 416 numpy.datetime64
+.r: 13 416 numpy.timedelta64
+.r: 6 384 numpy.core.getlimits.MachArLike
+.r: 6 384 numpy.ma.core._DomainSafeDivide
+.r: 6 384 numpy.ma.core._DomainedBinaryOperation
+.r: 5 360 guppy.etc.Glue.Owner
+.r: 5 360 guppy.etc.Glue.Share
+.r: 3 288 numpy.dtype
+.r: 1 280 dict of _ctypes.PyCStructType
+.r: 1 280 dict of _ctypes.UnionType
+.r: 1 280 dict of ctypes.PyDLL
+.r: 1 280 dict of decimal._Log10Memoize
+.r: 1 280 dict of guppy.heapy.Target.Target
+.r: 1 280 dict of guppy.heapy.Use._GLUECLAMP_
+.r: 1 280 dict of numpy.lib._datasource._FileOpeners
+.r: 1 280 dict of numpy.lib.index_tricks.CClass
+.r: 1 280 dict of numpy.lib.index_tricks.RClass
+.r: 1 280 dict of numpy.ma.core._DomainTan
+.r: 1 280 dict of numpy.ma.core._MaskedPrintOption
+.r: 1 280 dict of numpy.ma.extras.mr_class
+.r: 1 280 dict of os._Environ
+.r: 1 280 dict of random.Random
+.r: 1 280 dict of threading._Event
+.r: 1 280 dict of weakref.WeakKeyDictionary
+.r: 4 256 numpy.ma.extras._fromnxfunction_seq
+.r: 6 240 __builtin__.PyCObject
+.r: 5 240 __builtin__.PyCapsule
+.r: 6 240 datetime.timedelta
+.r: 7 224 numpy.float128
+.r: 7 224 thread.lock
+.r: 1 208 0x209a9e0
+.r: 1 208 0x20b3ef0
+.r: 1 208 0x20b4440
+.r: 1 208 0x20b4990
+.r: 1 208 0x20b4ee0
+.r: 2 208 _sre.SRE_Match
+.r: 3 192 decimal.Context
+.r: 3 192 numpy.core.getlimits.iinfo
+.r: 3 192 numpy.ma.core._DomainCheckInterval
+.r: 3 192 numpy.ma.core._DomainGreater
+.r: 3 192 numpy.ma.extras._fromnxfunction_allargs
+.r: 3 192 site._Printer
+.r: 1 152 sys.flags
+.r: 4 128 complex
+.r: 2 128 ctypes.LibraryLoader
+.r: 2 128 numpy.fft.helper._FFTCache
+.r: 2 128 numpy.lib.index_tricks.IndexExpression
+.r: 2 128 numpy.lib.index_tricks.nd_grid
+.r: 2 128 numpy.ma.core._DomainGreaterEqual
+.r: 2 128 numpy.ma.core._extrema_operation
+.r: 2 128 numpy.ma.extras._fromnxfunction_single
+.r: 2 128 site.Quitter
+.r: 2 128 threading._Condition
+.r: 1 120 numpy.ma.core.MaskedConstant
+.r: 1 112 sys.float_info
+.r: 1 96 codecs.CodecInfo
+.r: 2 96 datetime.datetime
+.r: 1 96 thread._local
+.r: 2 80 datetime.time
+.r: 1 80 mtrand.RandomState
+.r: 1 72 guppy.heapy.Target.Target
+.r: 1 72 itertools.count
+.r: 3 72 numpy.int64
+.r: 1 72 os._Environ
+.r: 1 72 weakref.WeakKeyDictionary
+.r: 1 64 __builtin__.method-wrapper
+.r: 1 64 ctypes.PyDLL
+.r: 2 64 datetime.date
+.r: 1 64 decimal._Log10Memoize
+.r: 1 64 guppy.heapy.Use._GLUECLAMP_
+.r: 1 64 numpy.core.numeric._unspecified
+.r: 1 64 numpy.lib._datasource._FileOpeners
+.r: 1 64 numpy.lib.index_tricks.CClass
+.r: 1 64 numpy.lib.index_tricks.RClass
+.r: 1 64 numpy.ma.core._DomainTan
+.r: 1 64 numpy.ma.core._MaskedPrintOption
+.r: 1 64 numpy.ma.extras.mr_class
+.r: 1 64 site._Helper
+.r: 1 64 sys.version_info
+.r: 1 64 threading._Event
+.r: 1 64 threading._MainThread
+.r: 1 64 unittest.loader.TestLoader
+.r: 2 48 bool
+.r: 2 48 numpy.bool_
+.r: 2 48 numpy.float64
+.r: 3 48 object
+.r: 1 40 sys.long_info
+.r: 1 32 _thread._localdummy
+.r: 2 32 imp.NullImporter
+.r: 1 24 numpy.int16
+.r: 1 24 numpy.int32
+.r: 1 24 numpy.int64
+.r: 1 16 types.EllipsisType
+.r: 1 16 types.NoneType
+.r: 1 16 types.NotImplementedType
+.end: .loader: _load_stat
+.loader: _load_stat
+.format: SetFormat
+.timemade: 1515928120.591521
+.count: 62115
+.size: 13442944
+.kindname: 
+.kindheader: Kind (class / dict of class)
+.numrows: 198
+.r: 28366 3841816 str
+.r: 339 3408984 array.array
+.r: 14474 1275392 tuple
+.r: 212 845024 dict of module
+.r: 548 572768 dict of type
+.r: 187 503944 dict (no owner)
+.r: 483 502824 unicode
+.r: 548 489672 type
+.r: 3646 466688 types.CodeType
+.r: 3518 422160 function
+.r: 2228 178240 __builtin__.wrapper_descriptor
+.r: 446 95472 list
+.r: 872 76736 __builtin__.weakref
+.r: 942 67824 types.BuiltinFunctionType
+.r: 911 65592 __builtin__.method_descriptor
+.r: 51 56520 dict of class
+.r: 210 48720 __builtin__.set
+.r: 32 47360 dict of abc.ABCMeta
+.r: 574 41328 types.GetSetDescriptorType
+.r: 37 37192 __builtin__.StgDict
+.r: 32 28928 abc.ABCMeta
+.r: 96 26880 dict of _weakrefset.WeakSet
+.r: 96 26880 dict of function
+.r: 1078 25872 int
+.r: 28 25280 _ctypes.PyCSimpleType
+.r: 6 20208 numpy.core.numerictypes._typedict
+.r: 104 19968 numpy.ufunc
+.r: 222 15984 types.MemberDescriptorType
+.r: 212 11872 module
+.r: 18 9648 dict of numpy.ma.core._MaskedBinaryOperation
+.r: 335 8040 float
+.r: 26 8016 _sre.SRE_Pattern
+.r: 26 7280 dict of numpy.ma.core._MaskedUnaryOperation
+.r: 26 7280 dict of numpy.ma.core._frommethod
+.r: 8 7200 _ctypes.PyCFuncPtrType
+.r: 78 6864 __builtin__.property
+.r: 120 6720 __builtin__.cell
+.r: 6 6288 dict of numpy.core.getlimits.MachArLike
+.r: 6 6288 dict of numpy.ma.core._DomainedBinaryOperation
+.r: 96 6144 _weakrefset.WeakSet
+.r: 67 5360 numpy.ndarray
+.r: 19 5320 dict of numpy.testing.nose_tools.nosetester.NoseTester
+.r: 51 5304 class
+.r: 5 5240 dict of guppy.etc.Glue.Share
+.r: 91 5096 __builtin__.staticmethod
+.r: 1 5064 random.Random
+.r: 21 4872 __builtin__.frozenset
+.r: 59 4720 types.MethodType
+.r: 14 3920 dict of functools.partial
+.r: 3 3144 dict of decimal.Context
+.r: 3 2680 _ctypes.PyCPointerType
+.r: 8 2240 dict of guppy.etc.Glue.Interface
+.r: 8 2240 dict of numpy.ma.core._convert2ma
+.r: 7 1960 dict of __future__._Feature
+.r: 7 1960 dict of abc.abstractproperty
+.r: 31 1736 __builtin__.classmethod
+.r: 6 1680 dict of numpy.ma.core._DomainSafeDivide
+.r: 26 1664 numpy.ma.core._MaskedUnaryOperation
+.r: 26 1664 numpy.ma.core._frommethod
+.r: 5 1400 dict of guppy.etc.Glue.Owner
+.r: 19 1368 __builtin__.classmethod_descriptor
+.r: 14 1232 functools.partial
+.r: 19 1216 numpy.testing.nose_tools.nosetester.NoseTester
+.r: 18 1152 numpy.ma.core._MaskedBinaryOperation
+.r: 4 1120 dict of numpy.ma.extras._fromnxfunction_seq
+.r: 1 1048 dict of _ctypes.PyCArrayType
+.r: 1 1048 dict of _ctypes.PyCFuncPtrType
+.r: 1 1048 dict of _ctypes.PyCPointerType
+.r: 1 1048 dict of _ctypes.PyCSimpleType
+.r: 1 1048 dict of codecs.CodecInfo
+.r: 1 1048 dict of string._TemplateMetaclass
+.r: 1 1048 dict of threading._MainThread
+.r: 31 1000 long
+.r: 1 904 ctypes._endian._swapped_meta
+.r: 1 904 string._TemplateMetaclass
+.r: 1 872 _ctypes.PyCArrayType
+.r: 1 872 _ctypes.PyCStructType
+.r: 1 872 _ctypes.UnionType
+.r: 2 864 types.FrameType
+.r: 3 840 dict of numpy.core.getlimits.iinfo
+.r: 3 840 dict of numpy.ma.core._DomainCheckInterval
+.r: 3 840 dict of numpy.ma.core._DomainGreater
+.r: 3 840 dict of numpy.ma.extras._fromnxfunction_allargs
+.r: 3 840 dict of site._Printer
+.r: 7 728 abc.abstractproperty
+.r: 1 664 dict of numpy.ma.core.MaskedConstant
+.r: 2 592 collections.OrderedDict
+.r: 9 576 operator.itemgetter
+.r: 2 560 dict of collections.OrderedDict
+.r: 2 560 dict of ctypes.LibraryLoader
+.r: 2 560 dict of numpy.fft.helper._FFTCache
+.r: 2 560 dict of numpy.lib.index_tricks.IndexExpression
+.r: 2 560 dict of numpy.lib.index_tricks.nd_grid
+.r: 2 560 dict of numpy.ma.core._DomainGreaterEqual
+.r: 2 560 dict of numpy.ma.core._extrema_operation
+.r: 2 560 dict of numpy.ma.extras._fromnxfunction_single
+.r: 2 560 dict of site.Quitter
+.r: 2 560 dict of threading._Condition
+.r: 8 512 guppy.etc.Glue.Interface
+.r: 8 512 numpy.ma.core._convert2ma
+.r: 7 504 __future__._Feature
+.r: 6 480 decimal.Decimal
+.r: 3 432 file
+.r: 13 416 numpy.datetime64
+.r: 13 416 numpy.timedelta64
+.r: 6 384 numpy.core.getlimits.MachArLike
+.r: 6 384 numpy.ma.core._DomainSafeDivide
+.r: 6 384 numpy.ma.core._DomainedBinaryOperation
+.r: 5 360 guppy.etc.Glue.Owner
+.r: 5 360 guppy.etc.Glue.Share
+.r: 3 288 numpy.dtype
+.r: 1 280 dict of _ctypes.PyCStructType
+.r: 1 280 dict of _ctypes.UnionType
+.r: 1 280 dict of ctypes.PyDLL
+.r: 1 280 dict of decimal._Log10Memoize
+.r: 1 280 dict of guppy.heapy.Target.Target
+.r: 1 280 dict of guppy.heapy.Use._GLUECLAMP_
+.r: 1 280 dict of numpy.lib._datasource._FileOpeners
+.r: 1 280 dict of numpy.lib.index_tricks.CClass
+.r: 1 280 dict of numpy.lib.index_tricks.RClass
+.r: 1 280 dict of numpy.ma.core._DomainTan
+.r: 1 280 dict of numpy.ma.core._MaskedPrintOption
+.r: 1 280 dict of numpy.ma.extras.mr_class
+.r: 1 280 dict of os._Environ
+.r: 1 280 dict of random.Random
+.r: 1 280 dict of threading._Event
+.r: 1 280 dict of weakref.WeakKeyDictionary
+.r: 4 256 numpy.ma.extras._fromnxfunction_seq
+.r: 6 240 __builtin__.PyCObject
+.r: 5 240 __builtin__.PyCapsule
+.r: 6 240 datetime.timedelta
+.r: 7 224 numpy.float128
+.r: 7 224 thread.lock
+.r: 1 208 0x209a9e0
+.r: 1 208 0x20b3ef0
+.r: 1 208 0x20b4440
+.r: 1 208 0x20b4990
+.r: 1 208 0x20b4ee0
+.r: 2 208 _sre.SRE_Match
+.r: 3 192 decimal.Context
+.r: 3 192 numpy.core.getlimits.iinfo
+.r: 3 192 numpy.ma.core._DomainCheckInterval
+.r: 3 192 numpy.ma.core._DomainGreater
+.r: 3 192 numpy.ma.extras._fromnxfunction_allargs
+.r: 3 192 site._Printer
+.r: 1 152 sys.flags
+.r: 4 128 complex
+.r: 2 128 ctypes.LibraryLoader
+.r: 2 128 numpy.fft.helper._FFTCache
+.r: 2 128 numpy.lib.index_tricks.IndexExpression
+.r: 2 128 numpy.lib.index_tricks.nd_grid
+.r: 2 128 numpy.ma.core._DomainGreaterEqual
+.r: 2 128 numpy.ma.core._extrema_operation
+.r: 2 128 numpy.ma.extras._fromnxfunction_single
+.r: 2 128 site.Quitter
+.r: 2 128 threading._Condition
+.r: 1 120 numpy.ma.core.MaskedConstant
+.r: 1 112 sys.float_info
+.r: 1 96 codecs.CodecInfo
+.r: 2 96 datetime.datetime
+.r: 1 96 thread._local
+.r: 2 80 datetime.time
+.r: 1 80 mtrand.RandomState
+.r: 1 72 guppy.heapy.Target.Target
+.r: 1 72 itertools.count
+.r: 3 72 numpy.int64
+.r: 1 72 os._Environ
+.r: 1 72 weakref.WeakKeyDictionary
+.r: 1 64 __builtin__.method-wrapper
+.r: 1 64 ctypes.PyDLL
+.r: 2 64 datetime.date
+.r: 1 64 decimal._Log10Memoize
+.r: 1 64 guppy.heapy.Use._GLUECLAMP_
+.r: 1 64 numpy.core.numeric._unspecified
+.r: 1 64 numpy.lib._datasource._FileOpeners
+.r: 1 64 numpy.lib.index_tricks.CClass
+.r: 1 64 numpy.lib.index_tricks.RClass
+.r: 1 64 numpy.ma.core._DomainTan
+.r: 1 64 numpy.ma.core._MaskedPrintOption
+.r: 1 64 numpy.ma.extras.mr_class
+.r: 1 64 site._Helper
+.r: 1 64 sys.version_info
+.r: 1 64 threading._Event
+.r: 1 64 threading._MainThread
+.r: 1 64 unittest.loader.TestLoader
+.r: 2 48 bool
+.r: 2 48 numpy.bool_
+.r: 2 48 numpy.float64
+.r: 3 48 object
+.r: 1 40 sys.long_info
+.r: 1 32 _thread._localdummy
+.r: 2 32 imp.NullImporter
+.r: 1 24 numpy.int16
+.r: 1 24 numpy.int32
+.r: 1 24 numpy.int64
+.r: 1 16 types.EllipsisType
+.r: 1 16 types.NoneType
+.r: 1 16 types.NotImplementedType
+.end: .loader: _load_stat
