@@ -20,7 +20,7 @@ def do_sth():
     # logs.write("\nAfter do_sth()\n")
     # logs.write (str(h.heap()))
 
-    ll.append(array.array('B', itertools.repeat(0, 10000)))
+    ll.append(array.array('B', itertools.repeat(0, 1000)))
     return a+1
 
 def main():
